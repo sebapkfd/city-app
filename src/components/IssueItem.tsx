@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 type Issue = {
   id: number;
   title: string;
@@ -11,17 +9,17 @@ type Issue = {
 const IssueItem = ({ issue }: { issue: Issue }) => {
   return (
     <div className="issue-item">
-      <Link to={"/" + issue.id} >
-        <p>{issue.date}</p>
-        <h2>{issue.title}</h2>
-        <div>
-          <img src={issue.pictures[0]} />
+      <div className="issue-header">
+        <div className="issue-title">
+          <h2>{issue.title}</h2>
         </div>
-
-      </Link>
+        <small>{issue.date}</small>
+      </div>
+      <div className="issue-picture">
+        <img src={issue.pictures[0]} />
+      </div>
     </div>
-  )
-
-}
+  );
+};
 
 export default IssueItem;

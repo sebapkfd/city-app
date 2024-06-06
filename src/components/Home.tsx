@@ -34,7 +34,12 @@ const Home = () => {
     <div className="home">
       <h1>Home</h1>
       <div className="issues-list">
-        {issues?.map((issue, index) => <IssueItem issue={issue} key={`issue-${index}`} />)}
+        
+        {issues?.map((issue, index) => (
+          <Link to={"/" + issue.id}>
+            <IssueItem issue={issue} key={`issue-${index}`} />
+          </Link>
+        ))}
       </div>
     </div>
   );

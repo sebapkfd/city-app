@@ -1,6 +1,14 @@
+:root {
+  --main-bg-color: #171717;
+  --soft-bg-color: #444444;
+  --warm-elements-color: #DA0037;
+  --main-text-color: #EDEDED;
+}
+
 body {
-  color: rgb(209, 209, 209);
-  background-color: rgb(29, 28, 28);
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+  font-family: 'Segoe UI', sans-serif;
 }
 
 .home,
@@ -9,18 +17,59 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
 }
-
 
 .issue-item {
   display: flex;
-  width: 60%;
-  /* background-color: blue; */
-  border: 1px solid rgb(77, 77, 77);
+  flex-direction: column;
+  width: 40vw;
+  border: 1px solid var(--soft-bg-color);
   border-radius: 15px;
   margin: 5px 0;
   padding: 1rem;
+}
+
+.issue-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.issue-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cfcfcf;
+  margin-right: 15px;
+}
+
+.issue-title h2 {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.issue-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cfcfcf;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.issue-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cfcfcf;
+}
+
+.issue-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .issue-item img {
@@ -28,10 +77,42 @@ body {
   height: 50%;
 }
 
-/* a, a:visited, a:hover, a:active {
-  color: inherit;
-  text-decoration: none;
-} */
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  width: 80%;
+}
+
+.issue-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  background-color: var(--soft-bg-color);
+  padding: 0 20px;
+
+}
+
+.issue-page-description {
+  margin: 50px 30px 20px 30px;
+}
 
 
 
