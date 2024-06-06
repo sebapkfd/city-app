@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Alcantarilla sin tapa",
-    "pictures": ["src/assets/fez-alb-no-cover-1.jpeg", "src/assets/fez-alb-no-cover-2.jpeg", "src/assets/fez-alb-no-cover-3.jpeg"],
+    "pictures": ["src/assets/fez-alb-no-cover-1.jpeg", "src/assets/fez-alb-no-cover-2.jpeg"],
     "description": "Se encuentra cerca de la esquina de Fernandez albano y San Rafael. La luz en el sector no es la mejor, por lo que alguien podría tropesarse en la noche o en los dias de lluvia",
     "date": "30-05-2024",
     "location": "Av. Fernández Albano 1098-1044, La Cisterna, Región Metropolitana"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Basura en punto de reciclaje",
-    "pictures": ["src/assets/iqq-fez-alb-trash-1.jpeg", "src/assets/iqq-fez-alb-trash-2.jpeg", "src/assets/iqq-fez-alb-trash-3.jpeg", "src/assets/iqq-fez-alb-trash-4.jpeg"],
+    "pictures": ["src/assets/iqq-fez-alb-trash-1.jpeg", "src/assets/iqq-fez-alb-trash-2.jpeg", "src/assets/iqq-fez-alb-trash-3.jpeg"],
     "description": "En la esquina de San Francisco con el Parrón, en San Ramón. Las alcantarillas y desagues estan rotos y tapados, en invierno con la lluvia esta esquina se inunda por lo mismo, además de ser un peligro para peatones",
     "date": "30-05-2024",
     "location": "La Granja 7900, La Cisterna, San Ramón, Región Metropolitana"
