@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import IssueItem from "./IssueItem";
 
 type Issue = {
   id: number;
@@ -30,18 +31,10 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className="home">
       <h1>Home</h1>
-      <div>
-        {issues?.map((issue, index) => (
-          <div key={`issue-${index}`}>
-            <Link to={"/" + issue.id} color="cyan">
-              <h2>{issue.title}</h2>
-              <img src={issue.pictures[0]} />
-              <p>{issue.date}</p>
-            </Link>
-          </div>
-        ))}
+      <div className="issues-list">
+        {issues?.map((issue, index) => <IssueItem issue={issue} key={`issue-${index}`} />)}
       </div>
     </div>
   );

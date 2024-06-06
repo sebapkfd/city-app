@@ -22,5 +22,13 @@
     "description": "En la esquina de San Francisco con el Parrón, en San Ramón. Las alcantarillas y desagues estan rotos y tapados, en invierno con la lluvia esta esquina se inunda por lo mismo, además de ser un peligro para peatones",
     "date": "30-05-2024",
     "location": "La Granja 7900, La Cisterna, San Ramón, Región Metropolitana"
+  },  
+  {
+    "id": 4,
+    "title": "Basura en punto de reciclaje",
+    "pictures": ["src/assets/iqq-fez-alb-trash-1.jpeg", "src/assets/iqq-fez-alb-trash-2.jpeg", "src/assets/iqq-fez-alb-trash-3.jpeg", "src/assets/iqq-fez-alb-trash-4.jpeg"],
+    "description": "En la esquina de San Francisco con el Parrón, en San Ramón. Las alcantarillas y desagues estan rotos y tapados, en invierno con la lluvia esta esquina se inunda por lo mismo, además de ser un peligro para peatones",
+    "date": "30-05-2024",
+    "location": "La Granja 7900, La Cisterna, San Ramón, Región Metropolitana"
   }  
 ]
