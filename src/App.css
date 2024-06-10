@@ -11,6 +11,12 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15%;
+}
+
 .home,
 .issues-list {
   display: flex;
