@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import useEmblaCarousel from "embla-carousel-react";
 
 type Issue = {
@@ -9,12 +9,14 @@ type Issue = {
   description: string;
   date: string;
   location: string;
+  tags: number[];
 };
 
 const IssuePage = () => {
   const [data, setData] = useState<Issue | null>(null);
   const [emblaRef] = useEmblaCarousel();
   let { id } = useParams();
+  
 
   const getData = async () => {
     const response = await fetch(
@@ -27,9 +29,10 @@ const IssuePage = () => {
       }
     );
     const data = await response.json();
+    
     let value: Issue[] = data.filter(
-      (issue: Issue) => id && issue.id == parseInt(id)
-    );
+      (issue: Issue) => id && issue.id === parseInt(id)
+    );  
 
     setData(value[0]);
   };
@@ -40,9 +43,6 @@ const IssuePage = () => {
 
   return data ? (
     <div className="issue-page">
-      <Link to={"/"}>
-        <button>Volver a Home</button>
-      </Link>
       <div className="main-row">
         <div>
           <h1 className="issue-page-title">{data.title}</h1>

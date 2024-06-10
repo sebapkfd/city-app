@@ -4,6 +4,7 @@ type Issue = {
   pictures: string[];
   description: string;
   date: string;
+  tags: number[];
 };
 
 const IssueItem = ({ issue }: { issue: Issue }) => {
