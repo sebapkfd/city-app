@@ -2,33 +2,67 @@
   {
     "id": 1,
     "title": "Rampa rota",
-    "pictures": ["src/assets/broken-ramp-1-transv-5ta-av-1.jpeg", "src/assets/broken-ramp-1-transv-5ta-av-2.jpeg", "src/assets/broken-ramp-1-transv-5ta-av-3.jpeg"],
+    "pictures": [
+      "src/assets/broken-ramp-1-transv-5ta-av-1.jpeg",
+      "src/assets/broken-ramp-1-transv-5ta-av-2.jpeg",
+      "src/assets/broken-ramp-1-transv-5ta-av-3.jpeg"
+    ],
     "description": "Rampa rota en esquina entre Primera transversal y 5ta avenida en San Miguel, dificulta a las personas con coches y sillas de ruedas para subir",
     "date": "02-06-2024",
-    "location": "Quinta Avenida 6251, 8920360 San Miguel, Región Metropolitana"
+    "location": "Quinta Avenida 6251, 8920360 San Miguel, Región Metropolitana",
+    "tags": [4]
   },
   {
     "id": 2,
     "title": "Alcantarilla sin tapa",
-    "pictures": ["src/assets/fez-alb-no-cover-1.jpeg", "src/assets/fez-alb-no-cover-2.jpeg"],
+    "pictures": [
+      "src/assets/fez-alb-no-cover-1.jpeg",
+      "src/assets/fez-alb-no-cover-2.jpeg"
+    ],
     "description": "Se encuentra cerca de la esquina de Fernandez albano y San Rafael. La luz en el sector no es la mejor, por lo que alguien podría tropesarse en la noche o en los dias de lluvia",
     "date": "30-05-2024",
-    "location": "Av. Fernández Albano 1098-1044, La Cisterna, Región Metropolitana"
+    "location": "Av. Fernández Albano 1098-1044, La Cisterna, Región Metropolitana",
+    "tags": [5]
   },
   {
     "id": 3,
     "title": "Alcantarillas y desagues en mal estado",
-    "pictures": ["src/assets/sf-el-parron-1.jpeg", "src/assets/sf-el-parron-2.jpeg", "src/assets/sf-el-parron-3.jpeg", "src/assets/sf-el-parron-4.jpeg"],
+    "pictures": [
+      "src/assets/sf-el-parron-1.jpeg",
+      "src/assets/sf-el-parron-2.jpeg",
+      "src/assets/sf-el-parron-3.jpeg",
+      "src/assets/sf-el-parron-4.jpeg"
+    ],
     "description": "En la esquina de San Francisco con el Parrón, en San Ramón. Las alcantarillas y desagues estan rotos y tapados, en invierno con la lluvia esta esquina se inunda por lo mismo, además de ser un peligro para peatones",
     "date": "30-05-2024",
-    "location": "La Granja 7900, La Cisterna, San Ramón, Región Metropolitana"
-  },  
+    "location": "La Granja 7900, La Cisterna, San Ramón, Región Metropolitana",
+    "tags": [5, 2]
+  },
   {
     "id": 4,
     "title": "Basura en punto de reciclaje",
-    "pictures": ["src/assets/iqq-fez-alb-trash-1.jpeg", "src/assets/iqq-fez-alb-trash-2.jpeg", "src/assets/iqq-fez-alb-trash-3.jpeg"],
+    "pictures": [
+      "src/assets/iqq-fez-alb-trash-1.jpeg",
+      "src/assets/iqq-fez-alb-trash-2.jpeg",
+      "src/assets/iqq-fez-alb-trash-3.jpeg"
+    ],
     "description": "En la esquina de San Francisco con el Parrón, en San Ramón. Las alcantarillas y desagues estan rotos y tapados, en invierno con la lluvia esta esquina se inunda por lo mismo, además de ser un peligro para peatones",
     "date": "30-05-2024",
-    "location": "La Granja 7900, La Cisterna, San Ramón, Región Metropolitana"
-  }  
+    "location": "La Granja 7900, La Cisterna, San Ramón, Región Metropolitana",
+    "tags": [2]
+  },
+  {
+    "id": 5,
+    "title": "Acceso a plaza en mal estado",
+    "pictures": [
+      "src/assets/nva-provi-ramp-1.jpeg",
+      "src/assets/nva-provi-ramp-2.jpeg",
+      "src/assets/nva-provi-ramp-3.jpeg",
+      "src/assets/nva-provi-ramp-4.jpeg"
+    ],
+    "description": "El ingreso a la plaza desde la vereda o el paradero de buses tiene un escalón que no solo está roto y en mal estado, si no que dificulta el acceso a las personas con poca movilidad. Se instalaron unas rampas de madera para ayudar con este problema, pero ya se encuentran en mal estado. A solo metros construyeron rampas y escaleras nuevas muy bien diseñadas, se podría hacer un esfuerzo similar para que todos los accesos a la parte de superior de la plaza tengan el mismo estándar de calidad",
+    "date": "09-06-2024",
+    "location": "Av. Nueva Providencia 1689",
+    "tags": [4]
+  }
 ]
