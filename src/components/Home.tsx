@@ -32,13 +32,12 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home">
+    <div className="section">
       <h1>Home</h1>
       <div className="issues-list">
-        
         {issues?.map((issue, index) => (
-          <Link to={"/" + issue.id}>
-            <IssueItem issue={issue} key={`issue-${index}`} />
+          <Link to={"/" + issue.id} key={`issue-${index}`}>
+            <IssueItem issue={issue} />
           </Link>
         ))}
       </div>

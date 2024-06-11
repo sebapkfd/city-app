@@ -25,7 +25,7 @@ const Categories = () => {
   }, []);
 
   return (
-    <div className="categories">
+    <div className="section">
       <h1>Categorías</h1>
       <ul>
         {tags?.map((tag, index) => (

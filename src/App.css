@@ -17,7 +17,7 @@ body {
   padding: 20px 15%;
 }
 
-.home,
+.section,
 .issues-list {
   display: flex;
   flex-direction: column;

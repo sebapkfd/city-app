@@ -12,12 +12,30 @@ type Issue = {
   tags: number[];
 };
 
+type Tag = {
+  id: number;
+  name: string;
+};
+
 const Category = () => {
-  const [issues, setIssues] = useState<Issue[] | null>(null);
+  const [issues, setIssues] = useState<Issue[]>();
+  const [category, setCategory] = useState<Tag | null>();
   let { id } = useParams();
 
   const getData = async () => {
-    const response = await fetch(
+    const tagsResponse = await fetch(
+      "http://localhost:5173/src/assets/tags.json",
+      {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      }
+    );
+    const tagsData = await tagsResponse.json();
+    let tag: Tag = tagsData.filter((tag: Tag) => id && tag.id === parseInt(id))[0];
+
+    const IssuesResponse = await fetch(
       "http://localhost:5173/src/assets/dummy-issues.json",
       {
         headers: {
@@ -26,28 +44,27 @@ const Category = () => {
         },
       }
     );
-    const data = await response.json();
-    // console.log(data);
-
-    let filteredIssues: Issue[] = data.filter(
-      (issue: Issue) => id && issue.tags.includes(parseInt(id))
+    const IssuesData = await IssuesResponse.json();
+    let filteredIssues: Issue[] = IssuesData.filter(
+      (issue: Issue) => id && issue.tags.includes(tag.id)
     );
-    console.log(filteredIssues);
 
     setIssues(filteredIssues);
+    setCategory(tag);
+    
   };
 
   useEffect(() => {
     getData();
   }, []);
 
-  return issues ? (
-    <div className="home">
-      <h1>Category</h1>
+  return issues && category ? (
+    <div className="section">
+      <h1>{category.name}</h1>
       <div className="issues-list">
         {issues?.map((issue, index) => (
-          <Link to={"/" + issue.id}>
-            <IssueItem issue={issue} key={`issue-${index}`} />
+          <Link to={"/" + issue.id} key={`category-issue-${index}`}>
+            <IssueItem issue={issue}  />
           </Link>
         ))}
       </div>

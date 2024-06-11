@@ -17,7 +17,7 @@ const IssueItem = ({ issue }: { issue: Issue }) => {
         <small>{issue.date}</small>
       </div>
       <div className="issue-picture">
-        <img src={issue.pictures[0]} />
+        <img src={"http://localhost:5173/" + issue.pictures[0]} />
       </div>
     </div>
   );
