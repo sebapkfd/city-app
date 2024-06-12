@@ -1,7 +1,7 @@
 :root {
-  --main-bg-color: #171717;
-  --soft-bg-color: #444444;
-  --warm-elements-color: #DA0037;
+  --main-bg-color: #000;
+  --soft-bg-color: #252525;
+  --warm-elements-color: #a52344;
   --main-text-color: #EDEDED;
 }
 
@@ -28,11 +28,15 @@ body {
 .issue-item {
   display: flex;
   flex-direction: column;
-  width: 40vw;
-  border: 1px solid var(--soft-bg-color);
-  border-radius: 15px;
-  margin: 5px 0;
-  padding: 1rem;
+  width: 22vw;
+  /* height: 25vw; */
+  /* border: 1px solid var(--soft-bg-color); */
+  border-radius: 35px;
+  margin: 20px 0;
+  /* background-color: var(--soft-bg-color); */
+  /* padding: 1.5rem; */
+  box-shadow: 5px 5px 700px var(--soft-bg-color);
+  /* padding: 1rem; */
 }
 
 .issue-header {
@@ -43,16 +47,18 @@ body {
 
 .issue-title {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  /* align-items: start; */
   color: #cfcfcf;
-  margin-right: 15px;
+  padding: 2rem 2rem 4rem 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .issue-title h2 {
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 1rem;
+  /* font-weight: 600; */
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .issue-date {
@@ -73,15 +79,30 @@ body {
 
 .issue-picture {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
 }
 
 .issue-item img {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  aspect-ratio: 1/1;
+  /* height: 50%; */
+  border-radius: 15px 15px 0 0;
 }
+
+/* .issue-title-overlay {
+  background-color: red;
+}
+
+.issue-title-overlay {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 16px;
+  font-weight: 100;
+} */
 
 
 .embla {
