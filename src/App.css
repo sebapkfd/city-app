@@ -29,14 +29,9 @@ body {
   display: flex;
   flex-direction: column;
   width: 22vw;
-  /* height: 25vw; */
-  /* border: 1px solid var(--soft-bg-color); */
-  border-radius: 35px;
+  border-radius: 15px;
   margin: 20px 0;
-  /* background-color: var(--soft-bg-color); */
-  /* padding: 1.5rem; */
-  box-shadow: 5px 5px 700px var(--soft-bg-color);
-  /* padding: 1rem; */
+  box-shadow: 5px 5px 70px var(--soft-bg-color);
 }
 
 .issue-header {
@@ -48,14 +43,11 @@ body {
 .issue-title {
   display: flex;
   flex-direction: column;
-  /* align-items: start; */
   color: #cfcfcf;
   padding: 2rem 2rem 4rem 2rem;
-  /* margin-bottom: 2rem; */
 }
 
 .issue-title h2 {
-  /* font-weight: 600; */
   font-size: 2rem;
   line-height: 2.5rem;
   margin-bottom: 1rem;
@@ -87,7 +79,6 @@ body {
 .issue-item img {
   width: 100%;
   aspect-ratio: 1/1;
-  /* height: 50%; */
   border-radius: 15px 15px 0 0;
 }
 
