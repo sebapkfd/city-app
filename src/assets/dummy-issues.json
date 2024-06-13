@@ -10,7 +10,7 @@
     "description": "Rampa rota en esquina entre Primera transversal y 5ta avenida en San Miguel, dificulta a las personas con coches y sillas de ruedas para subir",
     "date": "02-06-2024",
     "location": "Quinta Avenida 6251, 8920360 San Miguel, Región Metropolitana",
-    "tags": [4]
+    "tags": [4, 14, 16]
   },
   {
     "id": 2,
@@ -22,7 +22,7 @@
     "description": "Se encuentra cerca de la esquina de Fernandez albano y San Rafael. La luz en el sector no es la mejor, por lo que alguien podría tropesarse en la noche o en los dias de lluvia",
     "date": "30-05-2024",
     "location": "Av. Fernández Albano 1098-1044, La Cisterna, Región Metropolitana",
-    "tags": [5]
+    "tags": [2, 5, 10, 14]
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     "description": "En la esquina de San Francisco con el Parrón, en San Ramón. Las alcantarillas y desagues estan rotos y tapados, en invierno con la lluvia esta esquina se inunda por lo mismo, además de ser un peligro para peatones",
     "date": "30-05-2024",
     "location": "La Granja 7900, La Cisterna, San Ramón, Región Metropolitana",
-    "tags": [5, 2]
+    "tags": [2, 4, 5, 6, 10, 15]
   },
   {
     "id": 4,
@@ -63,7 +63,7 @@
     "description": "El ingreso a la plaza desde la vereda o el paradero de buses tiene un escalón que no solo está roto y en mal estado, si no que dificulta el acceso a las personas con poca movilidad. Se instalaron unas rampas de madera para ayudar con este problema, pero ya se encuentran en mal estado. A solo metros construyeron rampas y escaleras nuevas muy bien diseñadas, se podría hacer un esfuerzo similar para que todos los accesos a la parte de superior de la plaza tengan el mismo estándar de calidad",
     "date": "09-06-2024",
     "location": "Av. Nueva Providencia 1689",
-    "tags": [4]
+    "tags": [4, 10, 14, 16]
   },
   {
     "id": 6,
@@ -76,7 +76,7 @@
     "description": "El cruce presenta grietas los cuales dificultan cruzar con coches, carros o a personas con poca movilidad. El cruce también está al lado de la entrada a un estacionamiento, por lo que tiene harto paso de autos, por eso es importante que este en buenas condiciones",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [1, 9, 12, 14, 16]
   },
   {
     "id": 7,
@@ -87,7 +87,7 @@
     "description": "Cables rotos y acumulación de basura",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [2, 10, 14]
   },
   {
     "id": 8,
@@ -98,7 +98,7 @@
     "description": "Tapa de alcantarilla tiene una parte rota, puede provocar lesiones en caso de pisarla sin cuidado",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [5, 6, 9, 10, 14]
   },
   {
     "id": 9,
@@ -109,7 +109,7 @@
     "description": "Letrero doblado, molesta en la vereda y en general solo es basura",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [6, 10, 14]
   },
   {
     "id": 10,
@@ -122,20 +122,20 @@
     "description": "Calle llena de grietas por la poca mantención, cada vez que llueve se hacen charcos, generan molestias al pasar por sobre ellas",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [1, 10, 12]
   },
   {
     "id": 11,
-    "title": "Grietas y baches en intersección",
+    "title": "Intersección en malas condiciones",
     "pictures": [
       "src/assets/crack-sf-el-p-1.jpeg",
       "src/assets/crack-sf-el-p-2.jpeg",
       "src/assets/crack-sf-el-p-3.jpeg"
     ],
-    "description": "Grietas y baches en interesccion que es cambio de comuna entre San Ramón y La Cisterna, además se inundan con las lluvias.",
+    "description": "Grietas y baches en intereseccion que es cambio de comuna entre San Ramón y La Cisterna, además se inundan con las lluvias. Cuenta con diversos desagues que suelen estar tapados",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [1, 2, 5, 10, 12, 15]
   },
   {
     "id": 12,
@@ -147,7 +147,7 @@
     "description": "Barrera metalica golpeada y deformada, puede verse comprometida su firmeza y caerse hacia la calle",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [6, 9, 10, 14, 17]
   },
   {
     "id": 13,
@@ -161,7 +161,7 @@
     "description": "Protecciones de cruce fueron claramente golpeadas por un auto, estan inestables y no aguantaran un nuevo golpe, poniendo en peligro a peatones",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [6, 9, 10, 15, 17]
   },
   {
     "id": 14,
@@ -173,7 +173,7 @@
     "description": "Alcantarilla esta sin mantención, no esta con sus cubiertas, esta llena de basura, las rejas protectoras estan rotas y además se encuentra a la salida de un jardín infantil, pone en peligro a los niños",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [2, 5, 9, 10, 17]
   },
   {
     "id": 15,
@@ -186,7 +186,7 @@
     "description": "Falta un trozo de de vereda, justo a la salida de un condominio, molestando el dia a dia de los residentes",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [4, 13, 14, 16]
   },
   {
     "id": 16,
@@ -197,6 +197,6 @@
     "description": "El resto de los postes del parque funciona, solo este poste requiere mantenimiento",
     "date": "",
     "location": "",
-    "tags": []
+    "tags": [3, 10, 14]
   }
 ]
