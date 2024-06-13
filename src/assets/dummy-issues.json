@@ -64,5 +64,139 @@
     "date": "09-06-2024",
     "location": "Av. Nueva Providencia 1689",
     "tags": [4]
+  },
+  {
+    "id": 6,
+    "title": "Cruce peatonal en mal estado",
+    "pictures": [
+      "src/assets/bad-crossing-c-antunes-1.jpeg",
+      "src/assets/bad-crossing-c-antunes-2.jpeg",
+      "src/assets/bad-crossing-c-antunes-3.jpeg"
+    ],
+    "description": "El cruce presenta grietas los cuales dificultan cruzar con coches, carros o a personas con poca movilidad. El cruce también está al lado de la entrada a un estacionamiento, por lo que tiene harto paso de autos, por eso es importante que este en buenas condiciones",
+    "date": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "id": 7,
+    "title": "Cables rotos",
+    "pictures": [
+      "src/assets/broken-cables-el-parron.jpeg"
+    ],
+    "description": "Cables rotos y acumulación de basura",
+    "date": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "id": 8,
+    "title": "Tapa de alcantarilla rota",
+    "pictures": [
+      "src/assets/broken-cover-el-p-fez-alb.jpeg"
+    ],
+    "description": "Tapa de alcantarilla tiene una parte rota, puede provocar lesiones en caso de pisarla sin cuidado",
+    "date": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "id": 9,
+    "title": "Señaletica rota",
+    "pictures": [
+      "src/assets/broken-sign-barros-luco.jpeg"
+    ],
+    "description": "Letrero doblado, molesta en la vereda y en general solo es basura",
+    "date": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "id": 10,
+    "title": "Grietas en calle",
+    "pictures": [
+      "src/assets/crack-fez-alb-1.jpeg",
+      "src/assets/crack-fez-alb-2.jpeg",
+      "src/assets/crack-fez-alb-3.jpeg"
+    ],
+    "description": "Calle llena de grietas por la poca mantención, cada vez que llueve se hacen charcos, generan molestias al pasar por sobre ellas",
+    "date": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "id": 11,
+    "title": "Grietas y baches en intersección",
+    "pictures": [
+      "src/assets/crack-sf-el-p-1.jpeg",
+      "src/assets/crack-sf-el-p-2.jpeg",
+      "src/assets/crack-sf-el-p-3.jpeg"
+    ],
+    "description": "Grietas y baches en interesccion que es cambio de comuna entre San Ramón y La Cisterna, además se inundan con las lluvias.",
+    "date": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "id": 12,
+    "title": "Barrera en mal estado",
+    "pictures": [
+      "src/assets/hit-barrier-fez-alb-1.jpeg",
+      "src/assets/hit-barrier-fez-alb-2.jpeg"
+    ],
+    "description": "Barrera metalica golpeada y deformada, puede verse comprometida su firmeza y caerse hacia la calle",
+    "date": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "id": 13,
+    "title": "Protecciones de cruce golpeadas",
+    "pictures": [
+      "src/assets/hit-barrier-iqq-fez-alb-1.jpeg",
+      "src/assets/hit-barrier-iqq-fez-alb-2.jpeg",
+      "src/assets/hit-barrier-iqq-fez-alb-3.jpeg",
+      "src/assets/hit-barrier-iqq-fez-alb-4.jpeg"
+    ],
+    "description": "Protecciones de cruce fueron claramente golpeadas por un auto, estan inestables y no aguantaran un nuevo golpe, poniendo en peligro a peatones",
+    "date": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "id": 14,
+    "title": "Alcantarilla tapada y sin cubierta",
+    "pictures": [
+      "src/assets/no-cover-uru-1.jpeg",
+      "src/assets/no-cover-uru-2.jpeg"
+    ],
+    "description": "Alcantarilla esta sin mantención, no esta con sus cubiertas, esta llena de basura, las rejas protectoras estan rotas y además se encuentra a la salida de un jardín infantil, pone en peligro a los niños",
+    "date": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "id": 15,
+    "title": "Vereda incompleta",
+    "pictures": [
+      "src/assets/no-sidewalk-9na-av-1.jpeg",
+      "src/assets/no-sidewalk-9na-av-2.jpeg",
+      "src/assets/no-sidewalk-9na-av-3.jpeg"
+    ],
+    "description": "Falta un trozo de de vereda, justo a la salida de un condominio, molestando el dia a dia de los residentes",
+    "date": "",
+    "location": "",
+    "tags": []
+  },
+  {
+    "id": 16,
+    "title": "Poste de luz sin funcionar",
+    "pictures": [
+      "src/assets/not-working-lightpole-fez-alb.jpeg"
+    ],
+    "description": "El resto de los postes del parque funciona, solo este poste requiere mantenimiento",
+    "date": "",
+    "location": "",
+    "tags": []
   }
 ]

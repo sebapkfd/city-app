@@ -18,5 +18,37 @@
   {
     "id": 5,
     "name": "Alcantarilla en mal estado"
+  },
+  {
+    "id": 6,
+    "name": "Reemplazar"
+  },
+  {
+    "id": 7,
+    "name": "Mal planeación"
+  },
+  {
+    "id": 8,
+    "name": "Contaminación"
+  },
+  {
+    "id": 9,
+    "name": "Inseguro"
+  },
+  {
+    "id": 10,
+    "name": "Mal estado"
+  },
+  {
+    "id": 11,
+    "name": "Falta de vegetación"
+  },
+  {
+    "id": 12,
+    "name": "Malta conectividad"
+  },
+  {
+    "id": 13,
+    "name": "Inutilizable"
   }
 ]
