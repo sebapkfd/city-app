@@ -21,11 +21,16 @@ const Tags = ({ tags }: { tags: number[] }) => {
     );
     const data = await response.json();
 
-    let values: Tag[] = data.filter(
-      (category: Tag) => category.id && tags.includes(category.id)
-    );
+    if (tags[0] !== -1) {
+      let values: Tag[] = data.filter(
+        (category: Tag) => category.id && tags.includes(category.id)
+      );
+      setCategories(values);
+    }
+    else {
+      setCategories(data);
 
-    setCategories(values);
+    }
   };
 
   useEffect(() => {
@@ -35,8 +40,8 @@ const Tags = ({ tags }: { tags: number[] }) => {
   return categories.length > 0 ? (
     <div className="issue-page-tags">
       {categories.map((cat, index) => (
-        <Link to={"/categories/" + cat.id}>
-          <p className={"issue-page-tag"} key={`tag-${index}`}>{cat.name}</p>
+        <Link to={"/categories/" + cat.id} key={`tag-${index}`}>
+          <p className={"issue-page-tag"} >{cat.name}</p>
         </Link>
       ))
       }
