@@ -3,6 +3,9 @@
   --soft-bg-color: #252525;
   --warm-elements-color: #a52344;
   --main-text-color: #EDEDED;
+
+  /* testing colors */
+  --grey-1: rgb(28, 28, 30);
 }
 
 body {
@@ -32,6 +35,7 @@ body {
   border-radius: 15px;
   margin: 20px 0;
   box-shadow: 5px 5px 70px var(--soft-bg-color);
+  background-color: var(--grey-1);
 }
 
 .issue-header {
@@ -43,22 +47,31 @@ body {
 .issue-title {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   color: #cfcfcf;
-  padding: 2rem 2rem 4rem 2rem;
+  padding: 1.5rem;
 }
 
 .issue-title h2 {
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.issue-title p {
+  font-size: 13px;
+  line-height: 1.2;
   margin-bottom: 1rem;
+  color: #838393;
+  margin: 0;
 }
 
 .issue-date {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #cfcfcf;
-  font-size: 0.75rem;
+  font-size: 13px;
   line-height: 1rem;
 }
 
@@ -82,55 +95,61 @@ body {
   border-radius: 15px 15px 0 0;
 }
 
-/* .issue-title-overlay {
-  background-color: red;
-}
-
-.issue-title-overlay {
-  position: absolute;
-  bottom: 16px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0 16px;
-  font-weight: 100;
-} */
-
-
-.embla {
-  overflow: hidden;
-}
-
-.embla__container {
-  display: flex;
-}
-
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
-  width: 80%;
-}
+ /*********** IssuePage ***********/
 
 .issue-page {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 
-.main-row {
+.first-column {
+  width: 45%;
+  padding: 3rem 4rem 0 4rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 40vw;
-  background-color: var(--soft-bg-color);
-  padding: 0 20px;
-
+  justify-content: flex-start;
 }
 
-.issue-page-description {
-  margin: 50px 30px 20px 30px;
+.first-column img,
+.first-column p {
+  margin-bottom: 1.5rem;
 }
+
+.first-column img {
+  border-radius: 0.5rem;
+}
+
+
+
+.second-column {
+  width: 25%;
+  padding-top: 3rem;
+}
+
+.second-column p,
+.second-column h1 {
+  margin-bottom: 1.5rem;
+}
+
+.second-column h1 {
+  margin-bottom: 1.5rem;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.issue-page-date {
+  font-size: 14px;
+  color: #8e8e93;
+}
+
+.issue-page-location {
+  font-size: 20px;
+  color: #8e8e93;
+}
+
 
 
 
