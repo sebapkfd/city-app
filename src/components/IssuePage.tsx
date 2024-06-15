@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import Tags from "./Tags";
 
 type Issue = {
   id: number;
@@ -41,19 +42,17 @@ const IssuePage = () => {
   return data ? (
     <div className="issue-page">
       <div className="first-column">
-        <img src={data.pictures[0]} alt={data.title} />
+        <img src={data.pictures[0]} alt={data.title} key={`${data.title}-0`}/>
         <p>{data.description}</p>
         {data.pictures.map((pic, index) => (
-          <img src={pic} alt={`${data.title}-${index}`} />
+          index > 0 ? <img src={pic} alt={`${data.title}-${index}`} key={`${data.title}-${index}`} /> : null
         ))}
       </div>
       <div className="second-column">
         <p className="issue-page-date">{data.date}</p>
         <h1 className="issue-page-title">{data.title}</h1>
         <p className="issue-page-location">{data.location}</p>
-        {data.tags.map((tag, index) => (
-          <p key={`tag-${index}`}>{tag}</p>
-        ))}
+        <Tags tags={data.tags} />
       </div>
     </div>
   ) : null;
