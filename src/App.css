@@ -7,6 +7,8 @@
   /* testing colors */
   --grey-1: rgb(28, 28, 30);
   --grey-2: #1c1c1e;
+  --green-1: rgb(2, 4, 22);
+  --green-2: rgb(15, 23, 42);
 }
 
 body {
@@ -29,23 +31,31 @@ body {
   align-items: center;
 }
 
+/*********** Item ***********/
+
 .issue-item {
   display: flex;
   flex-direction: column;
   width: 22vw;
   border-radius: 15px;
   margin: 20px 0;
-  box-shadow: 5px 5px 70px var(--soft-bg-color);
   background-color: var(--grey-1);
 }
 
-.issue-header {
+.issue-item-picture {
   display: flex;
-  flex-direction: row;
-  justify-content: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.issue-title {
+.issue-item-picture img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 15px 15px 0 0;
+}
+
+.issue-item-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -53,14 +63,14 @@ body {
   padding: 1.5rem;
 }
 
-.issue-title h2 {
+.issue-item-info h2 {
   font-size: 22px;
   line-height: 1.2;
   margin-bottom: 0.5rem;
   color: #fff;
 }
 
-.issue-title p {
+.issue-item-info p {
   font-size: 13px;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -68,33 +78,6 @@ body {
   margin: 0;
 }
 
-.issue-date {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 13px;
-  line-height: 1rem;
-}
-
-.issue-date {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #cfcfcf;
-}
-
-.issue-picture {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.issue-item img {
-  width: 100%;
-  aspect-ratio: 1/1;
-  border-radius: 15px 15px 0 0;
-}
 
 /*********** IssuePage ***********/
 
@@ -175,7 +158,6 @@ body {
 .main-column {
   width: 40%;
 }
-
 
 
 
