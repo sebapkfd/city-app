@@ -20,7 +20,7 @@
   4. Improve text rendering
 */
 body {
-  line-height: 1.5;
+  /* line-height: 1.5; */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -56,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
   font-weight: unset;
 }
 

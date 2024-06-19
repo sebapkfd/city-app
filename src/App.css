@@ -116,6 +116,7 @@ body {
 .first-column img,
 .first-column p {
   margin-bottom: 1.5rem;
+  line-height: 1.5;
 }
 
 .first-column img {
@@ -189,10 +190,33 @@ body {
     width: 50%;
     display: flex;
   }
+
   .main-column .issue-page-tags {
     width: 100%;
   }
-  
+
+  .issue-page {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-column {
+    width: 60%;
+    padding: 3rem 0 0 0;
+  }
+
+  .first-column img,
+  .first-column p {
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+
+  .second-column {
+    width: 60%;
+  }
+
 }
 
 
@@ -202,9 +226,8 @@ body {
   }
 
   .main-column {
-    width: 60%;    
+    width: 60%;
   }
-  
 }
 
 @media (max-width: 640px) {
@@ -215,6 +238,7 @@ body {
   .main-column {
     width: 60%;
   }
+
   .main-column .issue-page-tags {
     flex-direction: column;
     justify-content: center;
