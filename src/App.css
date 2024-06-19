@@ -160,6 +160,7 @@ body {
   align-items: center;
   width: fit-content;
   margin: 0.5rem 0.3rem;
+  text-align: center;
 }
 
 .issue-page-tag:hover {
@@ -170,8 +171,59 @@ body {
 /*********** Categories Page ***********/
 
 .main-column {
-  width: 40%;
+  width: 50%;
 }
+
+.main-column .issue-page-tags {
+  padding: 1rem;
+}
+
+/*********** Responsive Design ***********/
+
+@media (max-width: 1024px) {
+  .issue-item {
+    width: 30vw;
+  }
+
+  .main-column {
+    width: 50%;
+    display: flex;
+  }
+  .main-column .issue-page-tags {
+    width: 100%;
+  }
+  
+}
+
+
+@media (max-width: 768px) {
+  .issue-item {
+    width: 40vw;
+  }
+
+  .main-column {
+    width: 60%;    
+  }
+  
+}
+
+@media (max-width: 640px) {
+  .issue-item {
+    width: 60vw;
+  }
+
+  .main-column {
+    width: 60%;
+  }
+  .main-column .issue-page-tags {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+
 
 
 
