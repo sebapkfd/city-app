@@ -14,14 +14,12 @@ type Issue = {
 const Home = () => {
   const [issues, setIssues] = useState<Issue[]>();
   const getData = async () => {
-    const response = await fetch(
-      "http://localhost:5173/src/assets/dummy-issues.json",
-      {
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-      }
+    const response = await fetch("../src/assets/dummy-issues.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    }
     );
     const data = await response.json();
     setIssues(data);

@@ -23,26 +23,22 @@ const Category = () => {
   let { id } = useParams();
 
   const getData = async () => {
-    const tagsResponse = await fetch(
-      "http://localhost:5173/src/assets/tags.json",
-      {
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-      }
+    const tagsResponse = await fetch("../src/assets/tags.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    }
     );
     const tagsData = await tagsResponse.json();
     let tag: Tag = tagsData.filter((tag: Tag) => id && tag.id === parseInt(id))[0];
 
-    const IssuesResponse = await fetch(
-      "http://localhost:5173/src/assets/dummy-issues.json",
-      {
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-      }
+    const IssuesResponse = await fetch("../src/assets/dummy-issues.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    }
     );
     const IssuesData = await IssuesResponse.json();
     let filteredIssues: Issue[] = IssuesData.filter(
@@ -51,7 +47,7 @@ const Category = () => {
 
     setIssues(filteredIssues);
     setCategory(tag);
-    
+
   };
 
   useEffect(() => {
@@ -64,7 +60,7 @@ const Category = () => {
       <div className="issues-list">
         {issues?.map((issue, index) => (
           <Link to={"/" + issue.id} key={`category-issue-${index}`}>
-            <IssueItem issue={issue}  />
+            <IssueItem issue={issue} />
           </Link>
         ))}
       </div>

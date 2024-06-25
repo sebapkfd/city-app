@@ -17,14 +17,12 @@ const IssuePage = () => {
   let { id } = useParams();
 
   const getData = async () => {
-    const response = await fetch(
-      "http://localhost:5173/src/assets/dummy-issues.json",
-      {
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-      }
+    const response = await fetch("../src/assets/dummy-issues.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    }
     );
     const data = await response.json();
 
@@ -42,7 +40,7 @@ const IssuePage = () => {
   return data ? (
     <div className="issue-page">
       <div className="first-column">
-        <img src={data.pictures[0]} alt={data.title} key={`${data.title}-0`}/>
+        <img src={data.pictures[0]} alt={data.title} key={`${data.title}-0`} />
         <p>{data.description}</p>
         {data.pictures.map((pic, index) => (
           index > 0 ? <img src={pic} alt={`${data.title}-${index}`} key={`${data.title}-${index}`} /> : null
