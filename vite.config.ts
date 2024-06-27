@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: "https://sebapkfd.github.io/city-app"
+  base: "/city-app/",
+  plugins: [react()]
 })
