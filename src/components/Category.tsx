@@ -1,26 +1,26 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
-import IssueItem from "./IssueItem";
+// import { useEffect, useState } from "react";
+// import { Link } from "react-router-dom";
+// import { useParams } from "react-router-dom";
+// import IssueItem from "./IssueItem";
 
-type Issue = {
-  id: number;
-  title: string;
-  pictures: string[];
-  description: string;
-  date: string;
-  tags: number[];
-};
+// type Issue = {
+//   id: number;
+//   title: string;
+//   pictures: string[];
+//   description: string;
+//   date: string;
+//   tags: number[];
+// };
 
-type Tag = {
-  id: number;
-  name: string;
-};
+// type Tag = {
+//   id: number;
+//   name: string;
+// };
 
 const Category = () => {
-  const [issues, setIssues] = useState<Issue[]>();
-  const [category, setCategory] = useState<Tag | null>();
-  let { id } = useParams();
+  // const [issues, setIssues] = useState<Issue[]>();
+  // const [category, setCategory] = useState<Tag | null>();
+  // let { id } = useParams();
 
   // const getData = async () => {
   //   const tagsResponse = await fetch("../src/assets/tags.json", {
@@ -54,18 +54,19 @@ const Category = () => {
   //   getData();
   // }, []);
 
-  return issues && category ? (
-    <div className="section">
-      <h1>{category.name}</h1>
-      <div className="issues-list">
-        {issues?.map((issue, index) => (
-          <Link to={"/" + issue.id} key={`category-issue-${index}`}>
-            <IssueItem issue={issue} />
-          </Link>
-        ))}
-      </div>
-    </div>
-  ) : (
+  // return issues && category ? (
+  //   <div className="section">
+  //     <h1>{category.name}</h1>
+  //     <div className="issues-list">
+  //       {issues?.map((issue, index) => (
+  //         <Link to={"/" + issue.id} key={`category-issue-${index}`}>
+  //           <IssueItem issue={issue} />
+  //         </Link>
+  //       ))}
+  //     </div>
+  //   </div>
+  // ) : null;
+  return (
     <div className="issue-page">
       <h1>Category page</h1>
       <p>No data version</p>

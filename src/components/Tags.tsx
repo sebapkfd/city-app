@@ -1,13 +1,14 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+// import { useEffect, useState } from "react";
+// import { Link } from "react-router-dom";
 
-type Tag = {
-  id: number;
-  name: string;
-};
+// type Tag = {
+//   id: number;
+//   name: string;
+// };
 
-const Tags = ({ tags }: { tags: number[] }) => {
-  const [categories, setCategories] = useState<Tag[]>([]);
+// const Tags = ({ tags }: { tags: number[] }) => {
+const Tags = () => {
+  // const [categories, setCategories] = useState<Tag[]>([]);
 
   // const getData = async () => {
   //   const response = await fetch("../src/assets/tags.json", {
@@ -35,16 +36,17 @@ const Tags = ({ tags }: { tags: number[] }) => {
   //   getData();
   // }, []);
 
-  return categories.length > 0 ? (
-    <div className="issue-page-tags">
-      {categories.map((cat, index) => (
-        <Link to={"/categories/" + cat.id} key={`tag-${index}`}>
-          <p className={"issue-page-tag"} >{cat.name}</p>
-        </Link>
-      ))
-      }
-    </div>
-  ) : (
+  // return categories.length > 0 ? (
+  //   <div className="issue-page-tags">
+  //     {categories.map((cat, index) => (
+  //       <Link to={"/categories/" + cat.id} key={`tag-${index}`}>
+  //         <p className={"issue-page-tag"} >{cat.name}</p>
+  //       </Link>
+  //     ))
+  //     }
+  //   </div>
+  // ) : null;
+  return (
     <div className="issue-page">
       <h1>Tags page</h1>
       <p>No data version</p>
