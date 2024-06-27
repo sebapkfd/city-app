@@ -16,26 +16,26 @@ const IssuePage = () => {
   const [data, setData] = useState<Issue | null>(null);
   let { id } = useParams();
 
-  const getData = async () => {
-    const response = await fetch("../src/assets/dummy-issues.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    }
-    );
-    const data = await response.json();
+  // const getData = async () => {
+  //   const response = await fetch("../src/assets/dummy-issues.json", {
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       Accept: "application/json",
+  //     },
+  //   }
+  //   );
+  //   const data = await response.json();
 
-    let value: Issue[] = data.filter(
-      (issue: Issue) => id && issue.id === parseInt(id)
-    );
+  //   let value: Issue[] = data.filter(
+  //     (issue: Issue) => id && issue.id === parseInt(id)
+  //   );
 
-    setData(value[0]);
-  };
+  //   setData(value[0]);
+  // };
 
-  useEffect(() => {
-    getData();
-  }, []);
+  // useEffect(() => {
+  //   getData();
+  // }, []);
 
   return data ? (
     <div className="issue-page">
@@ -53,7 +53,11 @@ const IssuePage = () => {
         <Tags tags={data.tags} />
       </div>
     </div>
-  ) : null;
+  ) :
+    <div className="issue-page">
+      <h1>Issue page</h1>
+      <h2>No data version</h2>
+    </div>;
 };
 
 export default IssuePage;

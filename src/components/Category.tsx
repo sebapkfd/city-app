@@ -22,37 +22,37 @@ const Category = () => {
   const [category, setCategory] = useState<Tag | null>();
   let { id } = useParams();
 
-  const getData = async () => {
-    const tagsResponse = await fetch("../src/assets/tags.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    }
-    );
-    const tagsData = await tagsResponse.json();
-    let tag: Tag = tagsData.filter((tag: Tag) => id && tag.id === parseInt(id))[0];
+  // const getData = async () => {
+  //   const tagsResponse = await fetch("../src/assets/tags.json", {
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       Accept: "application/json",
+  //     },
+  //   }
+  //   );
+  //   const tagsData = await tagsResponse.json();
+  //   let tag: Tag = tagsData.filter((tag: Tag) => id && tag.id === parseInt(id))[0];
 
-    const IssuesResponse = await fetch("../src/assets/dummy-issues.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    }
-    );
-    const IssuesData = await IssuesResponse.json();
-    let filteredIssues: Issue[] = IssuesData.filter(
-      (issue: Issue) => id && issue.tags.includes(tag.id)
-    );
+  //   const IssuesResponse = await fetch("../src/assets/dummy-issues.json", {
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       Accept: "application/json",
+  //     },
+  //   }
+  //   );
+  //   const IssuesData = await IssuesResponse.json();
+  //   let filteredIssues: Issue[] = IssuesData.filter(
+  //     (issue: Issue) => id && issue.tags.includes(tag.id)
+  //   );
 
-    setIssues(filteredIssues);
-    setCategory(tag);
+  //   setIssues(filteredIssues);
+  //   setCategory(tag);
 
-  };
+  // };
 
-  useEffect(() => {
-    getData();
-  }, []);
+  // useEffect(() => {
+  //   getData();
+  // }, []);
 
   return issues && category ? (
     <div className="section">
@@ -65,7 +65,12 @@ const Category = () => {
         ))}
       </div>
     </div>
-  ) : null;
+  ) : (
+    <div className="issue-page">
+      <h1>Category page</h1>
+      <p>No data version</p>
+    </div>
+  );
 };
 
 export default Category;

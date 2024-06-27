@@ -9,31 +9,31 @@ type Tag = {
 const Tags = ({ tags }: { tags: number[] }) => {
   const [categories, setCategories] = useState<Tag[]>([]);
 
-  const getData = async () => {
-    const response = await fetch("../src/assets/tags.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    }
-    );
-    const data = await response.json();
+  // const getData = async () => {
+  //   const response = await fetch("../src/assets/tags.json", {
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //       Accept: "application/json",
+  //     },
+  //   }
+  //   );
+  //   const data = await response.json();
 
-    if (tags[0] !== -1) {
-      let values: Tag[] = data.filter(
-        (category: Tag) => category.id && tags.includes(category.id)
-      );
-      setCategories(values);
-    }
-    else {
-      setCategories(data);
+  //   if (tags[0] !== -1) {
+  //     let values: Tag[] = data.filter(
+  //       (category: Tag) => category.id && tags.includes(category.id)
+  //     );
+  //     setCategories(values);
+  //   }
+  //   else {
+  //     setCategories(data);
 
-    }
-  };
+  //   }
+  // };
 
-  useEffect(() => {
-    getData();
-  }, []);
+  // useEffect(() => {
+  //   getData();
+  // }, []);
 
   return categories.length > 0 ? (
     <div className="issue-page-tags">
@@ -44,7 +44,12 @@ const Tags = ({ tags }: { tags: number[] }) => {
       ))
       }
     </div>
-  ) : null
+  ) : (
+    <div className="issue-page">
+      <h1>Tags page</h1>
+      <p>No data version</p>
+    </div>
+  )
 
 }
 
