@@ -1,7 +1,6 @@
 {
   "name": "city-app",
   "private": true,
-  "homepage": "https://sebapkfd.github.io/city-app",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
