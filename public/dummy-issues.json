@@ -1,0 +1,286 @@
+[
+  {
+    "id": 1,
+    "title": "Rampa rota",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-ramp-1-transv-5ta-av-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-ramp-1-transv-5ta-av-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-ramp-1-transv-5ta-av-3.jpeg"
+    ],
+    "description": "Rampa rota en esquina entre Primera transversal y 5ta avenida en San Miguel, dificulta a las personas con coches y sillas de ruedas para subir",
+    "date": "02-06-2024",
+    "location": "Quinta Avenida 6251, 8920360 San Miguel, Región Metropolitana",
+    "tags": [4, 14, 16],
+    "state": "active"
+  },
+  {
+    "id": 2,
+    "title": "Alcantarilla sin tapa",
+    "pictures": [
+      "src/assets/fez-alb-no-cover-1.jpeg",
+      "src/assets/fez-alb-no-cover-2.jpeg"
+    ],
+    "description": "Se encuentra cerca de la esquina de Fernandez albano y San Rafael. La luz en el sector no es la mejor, por lo que alguien podría tropesarse en la noche o en los dias de lluvia",
+    "date": "30-05-2024",
+    "location": "Av. Fernández Albano 1098-1044, La Cisterna, Región Metropolitana",
+    "tags": [2, 5, 10, 14],
+    "state": "active"
+  },
+  {
+    "id": 3,
+    "title": "Alcantarillas y desagues en mal estado",
+    "pictures": [
+      "src/assets/sf-el-parron-1.jpeg",
+      "src/assets/sf-el-parron-2.jpeg",
+      "src/assets/sf-el-parron-3.jpeg",
+      "src/assets/sf-el-parron-4.jpeg"
+    ],
+    "description": "En la esquina de San Francisco con el Parrón, en San Ramón. Las alcantarillas y desagues estan rotos y tapados, en invierno con la lluvia esta esquina se inunda por lo mismo, además de ser un peligro para peatones",
+    "date": "30-05-2024",
+    "location": "La Granja 7900, La Cisterna, San Ramón, Región Metropolitana",
+    "tags": [2, 4, 5, 6, 10, 15],
+    "state": "active"
+  },
+  {
+    "id": 4,
+    "title": "Basura en punto de reciclaje",
+    "pictures": [
+      "src/assets/iqq-fez-alb-trash-1.jpeg",
+      "src/assets/iqq-fez-alb-trash-2.jpeg",
+      "src/assets/iqq-fez-alb-trash-3.jpeg"
+    ],
+    "description": "En la esquina de San Francisco con el Parrón, en San Ramón. Las alcantarillas y desagues estan rotos y tapados, en invierno con la lluvia esta esquina se inunda por lo mismo, además de ser un peligro para peatones",
+    "date": "30-05-2024",
+    "location": "La Granja 7900, La Cisterna, San Ramón, Región Metropolitana",
+    "tags": [2],
+    "state": "active"
+  },
+  {
+    "id": 5,
+    "title": "Acceso a plaza en mal estado",
+    "pictures": [
+      "src/assets/nva-provi-ramp-1.jpeg",
+      "src/assets/nva-provi-ramp-2.jpeg",
+      "src/assets/nva-provi-ramp-3.jpeg",
+      "src/assets/nva-provi-ramp-4.jpeg"
+    ],
+    "description": "El ingreso a la plaza desde la vereda o el paradero de buses tiene un escalón que no solo está roto y en mal estado, si no que dificulta el acceso a las personas con poca movilidad. Se instalaron unas rampas de madera para ayudar con este problema, pero ya se encuentran en mal estado. A solo metros construyeron rampas y escaleras nuevas muy bien diseñadas, se podría hacer un esfuerzo similar para que todos los accesos a la parte de superior de la plaza tengan el mismo estándar de calidad",
+    "date": "08-06-2024",
+    "location": "Av. Nueva Providencia 1689",
+    "tags": [4, 10, 14, 16],
+    "state": "active"
+  },
+  {
+    "id": 6,
+    "title": "Cruce peatonal en mal estado",
+    "pictures": [
+      "src/assets/bad-crossing-c-antunes-1.jpeg",
+      "src/assets/bad-crossing-c-antunes-2.jpeg",
+      "src/assets/bad-crossing-c-antunes-3.jpeg"
+    ],
+    "description": "El cruce presenta grietas los cuales dificultan cruzar con coches, carros o a personas con poca movilidad. El cruce también está al lado de la entrada a un estacionamiento, por lo que tiene harto paso de autos, por eso es importante que este en buenas condiciones",
+    "date": "08-06-2024",
+    "location": "Dr. Luis Middleton 1748, Providencia, Región Metropolitana",
+    "tags": [1, 9, 12, 14, 16],
+    "state": "active"
+  },
+  {
+    "id": 7,
+    "title": "Cables rotos",
+    "pictures": [
+      "src/assets/broken-cables-el-parron.jpeg"
+    ],
+    "description": "Cables rotos y acumulación de basura",
+    "date": "13-06-2024",
+    "location": "Av. El Parrón 839, 7980347 La Cisterna, Región Metropolitana",
+    "tags": [2, 10, 14],
+    "state": "active"
+  },
+  {
+    "id": 8,
+    "title": "Tapa de alcantarilla rota",
+    "pictures": [
+      "src/assets/broken-cover-el-p-fez-alb.jpeg"
+    ],
+    "description": "Tapa de alcantarilla tiene una parte rota, puede provocar lesiones en caso de pisarla sin cuidado",
+    "date": "13-06-2024",
+    "location": "Av. El Parrón 1401, San Ramón, Región Metropolitana",
+    "tags": [5, 6, 9, 10, 14],
+    "state": "active"
+  },
+  {
+    "id": 9,
+    "title": "Señaletica rota",
+    "pictures": [
+      "src/assets/broken-sign-barros-luco.jpeg"
+    ],
+    "description": "Letrero doblado, molesta en la vereda y en general solo es basura",
+    "date": "13-06-2024",
+    "location": "Av. El Parrón 1493, 8860377 Santiago, San Ramón, Región Metropolitana",
+    "tags": [6, 10, 14],
+    "state": "active"
+  },
+  {
+    "id": 10,
+    "title": "Grietas en calle",
+    "pictures": [
+      "src/assets/crack-fez-alb-1.jpeg",
+      "src/assets/crack-fez-alb-2.jpeg",
+      "src/assets/crack-fez-alb-3.jpeg"
+    ],
+    "description": "Calle llena de grietas por la poca mantención, cada vez que llueve se hacen charcos, generan molestias al pasar por sobre ellas",
+    "date": "13-06-2024",
+    "location": "Av. Fernández Albano 854, La Cisterna, Región Metropolitana",
+    "tags": [1, 10, 12],
+    "state": "active"
+  },
+  {
+    "id": 11,
+    "title": "Intersección en malas condiciones",
+    "pictures": [
+      "src/assets/crack-sf-el-p-1.jpeg",
+      "src/assets/crack-sf-el-p-2.jpeg",
+      "src/assets/crack-sf-el-p-3.jpeg"
+    ],
+    "description": "Grietas y baches en intereseccion que es cambio de comuna entre San Ramón y La Cisterna, además se inundan con las lluvias. Cuenta con diversos desagues que suelen estar tapados",
+    "date": "13-06-2024",
+    "location": "Av. El Parrón 1218, 8860346 San Ramón, Región Metropolitana",
+    "tags": [1, 2, 5, 10, 12, 15],
+    "state": "active"
+  },
+  {
+    "id": 12,
+    "title": "Barrera en mal estado",
+    "pictures": [
+      "src/assets/hit-barrier-fez-alb-1.jpeg",
+      "src/assets/hit-barrier-fez-alb-2.jpeg"
+    ],
+    "description": "Barrera metalica golpeada y deformada, puede verse comprometida su firmeza y caerse hacia la calle",
+    "date": "13-06-2024",
+    "location": "Av. Fernández Albano 430, La Cisterna, Región Metropolitana",
+    "tags": [6, 9, 10, 14, 17],
+    "state": "active"
+  },
+  {
+    "id": 13,
+    "title": "Protecciones de cruce golpeadas",
+    "pictures": [
+      "src/assets/hit-barrier-iqq-fez-alb-1.jpeg",
+      "src/assets/hit-barrier-iqq-fez-alb-2.jpeg",
+      "src/assets/hit-barrier-iqq-fez-alb-3.jpeg",
+      "src/assets/hit-barrier-iqq-fez-alb-4.jpeg"
+    ],
+    "description": "Protecciones de cruce fueron claramente golpeadas por un auto, estan inestables y no aguantaran un nuevo golpe, poniendo en peligro a peatones",
+    "date": "13-06-2024",
+    "location": "Av. Fernández Albano 844, La Florida, La Cisterna, Región Metropolitana",
+    "tags": [6, 9, 10, 15, 17],
+    "state": "active"
+  },
+  {
+    "id": 14,
+    "title": "Alcantarilla tapada y sin cubierta",
+    "pictures": [
+      "src/assets/no-cover-uru-1.jpeg",
+      "src/assets/no-cover-uru-2.jpeg"
+    ],
+    "description": "Alcantarilla esta sin mantención, no esta con sus cubiertas, esta llena de basura, las rejas protectoras estan rotas y además se encuentra a la salida de un jardín infantil, pone en peligro a los niños",
+    "date": "13-06-2024",
+    "location": "Uruguay 1719, 8860531 Santiago, San Ramón, Región Metropolitana",
+    "tags": [2, 5, 9, 10, 17],
+    "state": "active"
+  },
+  {
+    "id": 15,
+    "title": "Vereda incompleta",
+    "pictures": [
+      "src/assets/no-sidewalk-9na-av-1.jpeg",
+      "src/assets/no-sidewalk-9na-av-2.jpeg",
+      "src/assets/no-sidewalk-9na-av-3.jpeg"
+    ],
+    "description": "Falta un trozo de de vereda, justo a la salida de un condominio, molestando el dia a dia de los residentes",
+    "date": "13-06-2024",
+    "location": "Novena Avenida 1210, 8920516 San Miguel, Región Metropolitana",
+    "tags": [4, 13, 14, 16],
+    "state": "active"
+  },
+  {
+    "id": 16,
+    "title": "Poste de luz sin funcionar",
+    "pictures": [
+      "src/assets/not-working-lightpole-fez-alb.jpeg"
+    ],
+    "description": "El resto de los postes del parque funcionan, solo este poste requiere mantenimiento",
+    "date": "13-06-2024",
+    "location": "Av. Fernández Albano 7311, La Cisterna, Región Metropolitana",
+    "tags": [3, 10, 14],
+    "state": "active"
+  },
+  {
+    "id": 17,
+    "title": "Tapa de alcantarilla en muy mal estado",
+    "pictures": [
+      "src/assets/no-cover-uru-jls-1.jpeg",
+      "src/assets/no-cover-uru-jls-2.jpeg",
+      "src/assets/no-cover-uru-jls-3.jpeg",
+      "src/assets/no-cover-uru-jls-4.jpeg"
+    ],
+    "description": "Lleva por lo menos un año en este estado, no solo se llena de basura si no que es peligroso",
+    "date": "13-06-2024",
+    "location": "Uruguay 1699, 8860527 La Cisterna, San Ramón, Región Metropolitana",
+    "tags": [5, 6, 9, 10],
+    "state": "active"
+  },
+  {
+    "id": 18,
+    "title": "Vereda dispareja y rota debido a raíz de arbol",
+    "pictures": [
+      "src/assets/broken-sidewalk-tree-sta-rosa-1.jpeg",
+      "src/assets/broken-sidewalk-tree-sta-rosa-2.jpeg"
+    ],
+    "description": "Es un arreglo pequeño, molesta al caminar y al llevar carros y coches. Lo importante es la mala planificación, de no ser capaz de hacer convivir al arbol con la vereda. Lo ideal sería un arreglo que no comprometa al arbol",
+    "date": "15-06-2024",
+    "location": "La Victoria 10, 8780609 La Granja, Región Metropolitana",
+    "tags": [4, 7, 12, 14, 16],
+    "state": "active"
+  },
+  {
+    "id": 19,
+    "title": "Alcantarilla sin tapa y malas protecciones",
+    "pictures": [
+      "src/assets/no-cover-sf.jpeg"
+    ],
+    "description": "Se perdió la tapa hace un tiempo, no ha sido arreglado pero se pusieron protecciones y señales que no son suficientes",
+    "date": "16-06-2024",
+    "location": "San Francisco 7661, La Cisterna, San Ramón, Región Metropolitana",
+    "tags": [5, 6, 9, 10, 15],
+    "state": "active"
+  },
+  {
+    "id": 20,
+    "title": "Calle llena de grietas y baches",
+    "pictures": [
+      "src/assets/cracks-sf-1.jpeg",
+      "src/assets/cracks-sf-2.jpeg",
+      "src/assets/cracks-sf-3.jpeg",
+      "src/assets/cracks-sf-4.jpeg"
+    ],
+    "description": "La calle es altamente transitada, este sector en concreto es entre dos semáforos. Los vehiculos pasan a alta velocidad y pueden provocar un accidente. Sin mencionar que en invierno se junta agua y terminan salpicando a peatones",
+    "date": "03-06-2024",
+    "location": "San Francisco 7896, 8860277 Santiago, San Ramón, Región Metropolitana",
+    "tags": [1, 10, 12],
+    "state": "active"
+  },
+  {
+    "id": 21,
+    "title": "Juegos para niños estan rotos y descuidados",
+    "pictures": [
+      "src/assets/juegos-mal-estado-fez-alb-1.jpeg",
+      "src/assets/juegos-mal-estado-fez-alb-2.jpeg"
+    ],
+    "description": "Los columpios están rotos y se acumula agua a la salida del resfalín. La plaza en ese sector esta llena de graffitis. Esto lleva por lo menos 1 año así ",
+    "date": "03-06-2024",
+    "location": "Av. Fernández Albano 7518, 7980234 La Cisterna, Región Metropolitana",
+    "tags": [6, 10, 13, 14],
+    "state": "active"
+  }
+]
