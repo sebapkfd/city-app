@@ -1,77 +1,73 @@
-// import { useEffect, useState } from "react";
-// import { Link } from "react-router-dom";
-// import { useParams } from "react-router-dom";
-// import IssueItem from "./IssueItem";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import IssueItem from "./IssueItem";
 
-// type Issue = {
-//   id: number;
-//   title: string;
-//   pictures: string[];
-//   description: string;
-//   date: string;
-//   tags: number[];
-// };
+type Issue = {
+  id: number;
+  title: string;
+  pictures: string[];
+  description: string;
+  date: string;
+  tags: number[];
+};
 
-// type Tag = {
-//   id: number;
-//   name: string;
-// };
+type Tag = {
+  id: number;
+  name: string;
+};
 
 const Category = () => {
-  // const [issues, setIssues] = useState<Issue[]>();
-  // const [category, setCategory] = useState<Tag | null>();
-  // let { id } = useParams();
+  const [issues, setIssues] = useState<Issue[]>();
+  const [category, setCategory] = useState<Tag | null>();
+  let { id } = useParams();
 
-  // const getData = async () => {
-  //   const tagsResponse = await fetch("../src/assets/tags.json", {
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //       Accept: "application/json",
-  //     },
-  //   }
-  //   );
-  //   const tagsData = await tagsResponse.json();
-  //   let tag: Tag = tagsData.filter((tag: Tag) => id && tag.id === parseInt(id))[0];
+  const getData = async () => {
+    // This fetch uses 2 dots before url, dont really like this, but it works
+    const tagsResponse = await fetch("../tags.json", {
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+      },
+    }
+    );
+    const tagsData = await tagsResponse.json();
+    let tag: Tag = tagsData.filter((tag: Tag) => id && tag.id === parseInt(id))[0];
 
-  //   const IssuesResponse = await fetch("../src/assets/dummy-issues.json", {
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //       Accept: "application/json",
-  //     },
-  //   }
-  //   );
-  //   const IssuesData = await IssuesResponse.json();
-  //   let filteredIssues: Issue[] = IssuesData.filter(
-  //     (issue: Issue) => id && issue.tags.includes(tag.id)
-  //   );
+    // This fetch uses 2 dots before url, dont really like this, but it works
+    const IssuesResponse = await fetch("../dummy-issues.json", {
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+      },
+    }
+    );
+    const IssuesData = await IssuesResponse.json();
+    let filteredIssues: Issue[] = IssuesData.filter(
+      (issue: Issue) => id && issue.tags.includes(tag.id)
+    );
 
-  //   setIssues(filteredIssues);
-  //   setCategory(tag);
+    setIssues(filteredIssues);
+    setCategory(tag);
 
-  // };
+  };
 
-  // useEffect(() => {
-  //   getData();
-  // }, []);
+  useEffect(() => {
+    getData();
+  }, []);
 
-  // return issues && category ? (
-  //   <div className="section">
-  //     <h1>{category.name}</h1>
-  //     <div className="issues-list">
-  //       {issues?.map((issue, index) => (
-  //         <Link to={"/" + issue.id} key={`category-issue-${index}`}>
-  //           <IssueItem issue={issue} />
-  //         </Link>
-  //       ))}
-  //     </div>
-  //   </div>
-  // ) : null;
-  return (
-    <div className="issue-page">
-      <h1>Category page</h1>
-      <p>No data version</p>
+  return issues && category ? (
+    <div className="section">
+      <h1>{category.name}</h1>
+      <div className="issues-list">
+        {issues?.map((issue, index) => (
+          <Link to={"/" + issue.id} key={`category-issue-${index}`}>
+            <IssueItem issue={issue} />
+          </Link>
+        ))}
+      </div>
     </div>
-  );
+  ) : null;
 };
 
 export default Category;
