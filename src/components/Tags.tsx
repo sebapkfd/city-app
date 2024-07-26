@@ -7,7 +7,6 @@ type Tag = {
 };
 
 const Tags = ({ tags }: { tags: number[] }) => {
-// const Tags = () => {
   const [categories, setCategories] = useState<Tag[]>([]);
 
   const getData = async () => {
