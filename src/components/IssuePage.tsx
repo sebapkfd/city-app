@@ -17,7 +17,7 @@ const IssuePage = () => {
   let { id } = useParams();
 
   const getData = async () => {
-    const response = await fetch("./dummy-issues.json", {
+    const response = await fetch("./issues.json", {
       headers: {
         "Content-Type": "application/json",
         "Accept": "application/json",

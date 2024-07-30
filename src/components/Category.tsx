@@ -35,7 +35,7 @@ const Category = () => {
     let tag: Tag = tagsData.filter((tag: Tag) => id && tag.id === parseInt(id))[0];
 
     // This fetch uses 2 dots before url, dont really like this, but it works
-    const IssuesResponse = await fetch("../dummy-issues.json", {
+    const IssuesResponse = await fetch("../issues.json", {
       headers: {
         "Content-Type": "application/json",
         "Accept": "application/json",

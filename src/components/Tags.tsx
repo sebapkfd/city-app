@@ -17,7 +17,7 @@ const Tags = ({ tags }: { tags: number[] }) => {
       },
     }
     );
-    
+
     const data = await response.json();
 
     if (tags[0] !== -1) {
@@ -41,8 +41,7 @@ const Tags = ({ tags }: { tags: number[] }) => {
         <Link to={"/categories/" + cat.id} key={`tag-${index}`}>
           <p className={"issue-page-tag"} >{cat.name}</p>
         </Link>
-      ))
-      }
+      ))}
     </div>
   ) : null;
 
