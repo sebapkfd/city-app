@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Project Started",
+    "content": "Developed first version of posts",
+    "date": "04-06-2024"
+  },
+  {
+    "id": 2,
+    "title": "First online version",
+    "content": "Deployed for the first time, but in order to fix the deployment problems, we had to deploy and empty app",
+    "date": "26-06-2024"
+  },
+  {
+    "id": 3,
+    "title": "Now we support images",
+    "content": "Now we have a first usable version, posts with images and singular pages",
+    "date": "14-07-2024"
+  },
+  {
+    "id": 4,
+    "title": "Fully migrated to S3",
+    "content": "Our images were not stored really well, so now we have it in the cloud, it helps our app run better as well",
+    "date": "26-07-2024"
+  },
+  {
+    "id": 5,
+    "title": "Added News category",
+    "content": "Now we will have a better registry of how our advances are going",
+    "date": "29-07-2024"
+  }
+]

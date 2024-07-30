@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Categories from "./components/Categories";
 import Header from "./components/Header";
 import Category from "./components/Category";
+import News from "./components/News";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/news" element={<News />} />
         <Route path="/categories/:id" element={<Category />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/:id" element={<IssuePage />} />

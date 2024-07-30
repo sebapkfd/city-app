@@ -7,6 +7,8 @@
   /* testing colors */
   --grey-1: rgb(28, 28, 30);
   --grey-2: #1c1c1e;
+  --grey-3: #30363d;
+  --grey-4: #161b22;
   --green-1: rgb(2, 4, 22);
   --green-2: rgb(15, 23, 42);
   --yellow-1: rgb(255, 212, 21);
@@ -166,7 +168,7 @@ body {
 }
 
 .issue-page-tag:hover {
-  background-color: var(--grey-2);
+  background-color: var(--grey-4);
 }
 
 
@@ -179,6 +181,48 @@ body {
 .main-column .issue-page-tags {
   padding: 1rem;
 }
+
+
+/*********** News ***********/
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  border-radius: 15px;
+  margin: 20px 0;
+  border: var(--grey-3) solid 1px;
+}
+
+.news-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #cfcfcf;
+  padding: 1.5rem;
+}
+
+.news-item-info h2 {
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.news-item-info p {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #838393;
+}
+
+.news-item-content {
+  margin-bottom: 1rem;
+}
+
+.news-item:hover {
+  background-color: var(--grey-4);
+}
+
 
 /*********** Responsive Design ***********/
 
