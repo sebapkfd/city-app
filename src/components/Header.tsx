@@ -6,7 +6,7 @@ const Header = () => {
       <Link to={"/"}>Home</Link>
       <div className="header-options">
         <Link to={"/categories"}>Categorías</Link>
-        <Link to={"/news"}>Anuncios</Link>
+        <Link to={"/releases"}>Anuncios</Link>
       </div>
     </ul>
   );

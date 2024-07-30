@@ -21,7 +21,8 @@ body {
 }
 
 .section,
-.issues-list {
+.issues-list,
+.releases-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -189,9 +190,13 @@ body {
 }
 
 
-/*********** News ***********/
+/*********** Releases ***********/
 
-.news-item {
+.releases-list {
+  flex-direction: column-reverse;
+}
+
+.releases-item {
   display: flex;
   flex-direction: column;
   width: 30vw;
@@ -200,7 +205,7 @@ body {
   border: var(--grey-3) solid 1px;
 }
 
-.news-item-info {
+.releases-item-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -208,24 +213,24 @@ body {
   padding: 1.5rem;
 }
 
-.news-item-info h2 {
+.releases-item-info h2 {
   font-size: 22px;
   line-height: 1.2;
   margin-bottom: 0.5rem;
   color: #fff;
 }
 
-.news-item-info p {
+.releases-item-info p {
   font-size: 16px;
   line-height: 1.2;
   color: #838393;
 }
 
-.news-item-content {
+.releases-item-content {
   margin-bottom: 1rem;
 }
 
-.news-item:hover {
+.releases-item:hover {
   background-color: var(--grey-4);
 }
 

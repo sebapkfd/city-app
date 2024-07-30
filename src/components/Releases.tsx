@@ -1,18 +1,18 @@
 import { useEffect, useState } from "react";
-import NewItem from "./NewItem";
+import ReleaseItem from "./ReleaseItem";
 
-type New = {
+type Release = {
   id: number;
   title: string;
   content: string;
   date: string;
 };
 
-const News = () => {
-  const [news, setNews] = useState<New[]>([]);
+const Releases = () => {
+  const [releases, setReleases] = useState<Release[]>([]);
 
   const getData = async () => {
-    const response = await fetch("./news.json", {
+    const response = await fetch("./releases.json", {
       headers: {
         "Content-Type": "application/json",
         "Accept": "application/json",
@@ -20,7 +20,7 @@ const News = () => {
     }
     );
     const data = await response.json();
-    setNews(data);
+    setReleases(data);
   };
 
   useEffect(() => {
@@ -30,13 +30,13 @@ const News = () => {
   return (
     <div className="section">
       <h1>Anuncios</h1>
-      <div className="news-list">
-        {news?.map((n, index) => (
-          <NewItem item={n} key={`new-${index}`}/>
+      <div className="releases-list">
+        {releases?.map((release, index) => (
+          <ReleaseItem release={release} key={`release-${index}`}/>
         ))}
       </div>
     </div>
   );
 };
 
-export default News;
+export default Releases;
