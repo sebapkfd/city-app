@@ -20,17 +20,6 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 15%;
-  position: fixed;
-  top: 0;
-  background-color: var(--main-bg-color);
-  width: 100%;
-  font-size: 22px;
-}
-
 .section,
 .issues-list {
   display: flex;
@@ -45,6 +34,23 @@ body {
 
 .issues-list {
   margin-top: 1rem;
+}
+
+/*********** Header ***********/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15%;
+  position: fixed;
+  top: 0;
+  background-color: var(--main-bg-color);
+  width: 100%;
+  font-size: 22px;
+}
+
+.header-options a {
+  margin-right: 2rem;
 }
 
 /*********** Item ***********/
