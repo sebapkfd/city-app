@@ -41,8 +41,14 @@ const IssuePage = () => {
         <p className="issue-page-date">{data.date}</p>
         <h1 className="issue-page-title">{data.title}</h1>
         <p className="issue-page-location">{data.location}</p>
-        <Tags tags={data.tags} />
-        <p className="issue-page-location">{data.state ? "Activo" : "Arreglado"}</p>
+        <div className="issue-page-section">
+        <p className="issue-page-label">Estado</p>
+          <p className="issue-page-state">{data.state ? "Pendiente" : "Solucionado"}</p>
+        </div>
+        <div className="issue-page-section">
+        <p className="issue-page-label">Categorías</p>
+          <Tags tags={data.tags} />
+        </div>
       </div>
     </div>
   ) : null;
