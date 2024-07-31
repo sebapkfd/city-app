@@ -1,16 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Tags from "./Tags";
-
-type Issue = {
-  id: number;
-  title: string;
-  pictures: string[];
-  description: string;
-  date: string;
-  location: string;
-  tags: number[];
-};
+import { Issue } from "../shared/types";
 
 const IssuePage = () => {
   const [data, setData] = useState<Issue | null>(null);
@@ -51,6 +42,7 @@ const IssuePage = () => {
         <h1 className="issue-page-title">{data.title}</h1>
         <p className="issue-page-location">{data.location}</p>
         <Tags tags={data.tags} />
+        <p className="issue-page-location">{data.state ? "Activo" : "Arreglado"}</p>
       </div>
     </div>
   ) : null;

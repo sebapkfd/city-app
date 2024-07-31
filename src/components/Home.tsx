@@ -1,15 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import IssueItem from "./IssueItem";
-
-type Issue = {
-  id: number;
-  title: string;
-  pictures: string[];
-  description: string;
-  date: string;
-  tags: number[];
-};
+import { Issue } from "../shared/types";
 
 const Home = () => {
   const [issues, setIssues] = useState<Issue[]>();

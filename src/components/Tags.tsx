@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
-type Tag = {
-  id: number;
-  name: string;
-};
+import { Tag } from "../shared/types";
 
 const Tags = ({ tags }: { tags: number[] }) => {
   const [categories, setCategories] = useState<Tag[]>([]);

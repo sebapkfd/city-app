@@ -1,11 +1,4 @@
-type Issue = {
-  id: number;
-  title: string;
-  pictures: string[];
-  description: string;
-  date: string;
-  tags: number[];
-};
+import { Issue } from "../shared/types";
 
 const IssueItem = ({ issue }: { issue: Issue }) => {
   return (

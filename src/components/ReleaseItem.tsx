@@ -1,9 +1,4 @@
-type Release = {
-  id: number;
-  title: string;
-  content: string;
-  date: string;
-};
+import { Release } from "../shared/types";
 
 const ReleaseItem = ({ release }: { release: Release }) => {
   return (

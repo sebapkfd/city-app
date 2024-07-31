@@ -1,12 +1,6 @@
 import { useEffect, useState } from "react";
 import ReleaseItem from "./ReleaseItem";
-
-type Release = {
-  id: number;
-  title: string;
-  content: string;
-  date: string;
-};
+import { Release } from "../shared/types";
 
 const Releases = () => {
   const [releases, setReleases] = useState<Release[]>([]);

@@ -2,20 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import IssueItem from "./IssueItem";
-
-type Issue = {
-  id: number;
-  title: string;
-  pictures: string[];
-  description: string;
-  date: string;
-  tags: number[];
-};
-
-type Tag = {
-  id: number;
-  name: string;
-};
+import { Issue, Tag } from "../shared/types";
 
 const Category = () => {
   const [issues, setIssues] = useState<Issue[]>();
@@ -23,7 +10,6 @@ const Category = () => {
   let { id } = useParams();
 
   const getData = async () => {
-    // This fetch uses 2 dots before url, dont really like this, but it works
     const tagsResponse = await fetch("../tags.json", {
       headers: {
         "Content-Type": "application/json",
@@ -34,7 +20,6 @@ const Category = () => {
     const tagsData = await tagsResponse.json();
     let tag: Tag = tagsData.filter((tag: Tag) => id && tag.id === parseInt(id))[0];
 
-    // This fetch uses 2 dots before url, dont really like this, but it works
     const IssuesResponse = await fetch("../issues.json", {
       headers: {
         "Content-Type": "application/json",
