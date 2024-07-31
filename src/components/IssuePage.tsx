@@ -43,7 +43,7 @@ const IssuePage = () => {
         <p className="issue-page-location">{data.location}</p>
         <div className="issue-page-section">
         <p className="issue-page-label">Estado</p>
-          <p className="issue-page-state">{data.state ? "Pendiente" : "Solucionado"}</p>
+          <p className="issue-page-state">{data.state === "Active" ? "Pendiente" : "Solucionado"}</p>
         </div>
         <div className="issue-page-section">
         <p className="issue-page-label">Categorías</p>

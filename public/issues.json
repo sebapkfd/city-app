@@ -117,7 +117,7 @@
     "description": "Letrero doblado, molesta en la vereda y en general solo es basura",
     "date": "13-06-2024",
     "location": "Av. El Parrón 1493, 8860377 Santiago, San Ramón, Región Metropolitana",
-    "tags": [6, 10, 14],
+    "tags": [6, 10, 14, 18],
     "state": "active"
   },
   {
@@ -276,10 +276,37 @@
       "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-playground-fez-alb-1.jpeg",
       "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-playground-fez-alb-2.jpeg"
     ],
-    "description": "Los columpios están rotos y se acumula agua a la salida del resfalín. La plaza en ese sector esta llena de graffitis. Esto lleva por lo menos 1 año así ",
+    "description": "Los columpios están rotos y se acumula agua a la salida del resfalín. La plaza en ese sector esta llena de graffitis. Esto lleva por lo menos 1 año así.",
     "date": "03-06-2024",
     "location": "Av. Fernández Albano 7518, 7980234 La Cisterna, Región Metropolitana",
     "tags": [6, 10, 13, 14],
+    "state": "active"
+  },
+  {
+    "id": 22,
+    "title": "Paradero en mal estado",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-bus-stop-el-parron-2.jpeg"
+    ],
+    "description": "Paradero se encuentra en pésimo estado, el techo está suelto, lleno de graffitis y la señalética está torcida",
+    "date": "30-05-2024",
+    "location": "Av. El Parrón 1449, 8860366 San Ramón, Región Metropolitana",
+    "tags": [6, 10, 12, 18],
+    "state": "fixed"
+  },
+  {
+    "id": 23,
+    "title": "Plaza sin basurero",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/no-trashcan-el-parron-sf-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/no-trashcan-el-parron-sf-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/no-trashcan-el-parron-sf-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/no-trashcan-el-parron-sf-4.jpeg"
+    ],
+    "description": "La plaza no tiene basurero, solo queda la base, esto ayuda a que se llene de basura y requiera más mantenimiento.",
+    "date": "30-05-2024",
+    "location": "Av. El Parrón 1205, 8860346 Santiago, San Ramón, Región Metropolitana",
+    "tags": [2, 6, 10, 12, 13, 14],
     "state": "active"
   }
 ]
