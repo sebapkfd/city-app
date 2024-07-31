@@ -34,5 +34,11 @@
     "title": "Added Releases category",
     "content": "Now we will have a better registry of how our advances are going",
     "date": "29-07-2024"
+  },
+  {
+    "id": 7,
+    "title": "Added Stats",
+    "content": "We are starting to develop a way to show issues that has already been solved, for now we have only a tag, but soon other functionalities will be added",
+    "date": "30-07-2024"
   }
 ]
