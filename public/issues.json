@@ -246,7 +246,8 @@
     "id": 19,
     "title": "Alcantarilla sin tapa y malas protecciones",
     "pictures": [
-      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/no-cover-sf.jpeg"
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/no-cover-sf.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/no-cover-sf-2.jpeg"
     ],
     "description": "Se perdió la tapa hace un tiempo, no ha sido arreglado pero se pusieron protecciones y señales que no son suficientes",
     "date": "16-06-2024",
@@ -307,6 +308,123 @@
     "date": "30-05-2024",
     "location": "Av. El Parrón 1205, 8860346 Santiago, San Ramón, Región Metropolitana",
     "tags": [2, 6, 10, 12, 13, 14],
+    "state": "active"
+  },
+  {
+    "id": 24,
+    "title": "Alcantarilla en pésimo estado",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/m-montt-alcantarilla-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/m-montt-alcantarilla-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/m-montt-alcantarilla-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/m-montt-alcantarilla-4.jpeg"
+    ],
+    "description": "Alcantarilla se encuentra abierto y en mal estado, es peligrosa porque vehiculos pueden pasar sobre ella, además de que está cerca de un cruce de peatones",
+    "date": "08-07-2024",
+    "location": "Av. Nueva Providencia 1303, 7500592 Santiago, Providencia, Región Metropolitana",
+    "tags": [1, 5, 9, 10, 15],
+    "state": "active"
+  },
+  {
+    "id": 25,
+    "title": "Bache mal tapado",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/eu-altamir-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/eu-altamir-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/eu-altamir-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/eu-altamir-4.jpeg"
+    ],
+    "description": "Se encuentra en una calle menor pero que sirve de alternativa a Gran Avenida, por lo que recibe mucho tráfico y resulta incómoda en hora punta",
+    "date": "06-06-2024",
+    "location": "Eulogio Altamirano 7302, 7980234 La Cisterna, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 26,
+    "title": "Intersección llena de baches",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/bad-street-subercsx-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/bad-street-subercsx-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/bad-street-subercsx-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/bad-street-subercsx-4.jpeg"
+    ],
+    "description": "Calle que recibe mucho tráfico e incluso cambia su dirección en hora punta, los autos pasan a alta velocidad y empeoran el estado de la calle",
+    "date": "16-06-2024",
+    "location": "Ramón Subercaseaux 1499, San Miguel, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 27,
+    "title": "Intersección con baches en cruce",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/enr-matte-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/enr-matte-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/enr-matte-3.jpeg"
+    ],
+    "description": "Los baches incomodan a los peatones que usan el cruce en invierno, debido a que se junta agua y basura. También dificulta a los autos para entrar a la calle principal",
+    "date": "16-06-2024",
+    "location": "Enrique Matte 1498, San Miguel, Región Metropolitana",
+    "tags": [1, 10, 12, 16],
+    "state": "active"
+  },
+  {
+    "id": 28,
+    "title": "Bache en esquina en espera de semáforo",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-loyola-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-loyola-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-loyola-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-loyola-4.jpeg"
+    ],
+    "description": "Frente a esta intersección se instala una feria y el bache incomoda a los peatones para cruzar con sus carros, además en invierno se forman pozas de agua",
+    "date": "16-06-2024",
+    "location": "San Ignacio de Loyola 3481, San Miguel, Región Metropolitana",
+    "tags": [1, 10, 16],
+    "state": "active"
+  },
+  {
+    "id": 29,
+    "title": "Tapa de alcantarilla rota en cruce",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/l-mrn-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/l-mrn-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/l-mrn-3.jpeg"
+    ],
+    "description": "Arreglo menor en cruce muy concurrido, llama la atención el estado de esto debido a que es una zona que fue re desarrollada hace poco",
+    "date": "16-06-2024",
+    "location": "Av. La Marina 1498, 8920022 San Miguel, Región Metropolitana",
+    "tags": [5, 6, 14],
+    "state": "active"
+  },
+  {
+    "id": 30,
+    "title": "Múltiples grietas en un tramo",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/gauss-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/gauss-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/gauss-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/gauss-4.jpeg"
+    ],
+    "description": "La calle conecta con una feria y está empinada, por lo que utilizarla los días de ferias se vuelve muy desagradable. Esta calle cambia de sentido en horas puntas para tomar más tráfico, por lo que sumado a las pendientes, termina afectando mucho más al estado de la calle",
+    "date": "16-06-2024",
+    "location": "Gauss 5156, 8920104 San Miguel, Región Metropolitana",
+    "tags": [1, 10, 12],
+    "state": "active"
+  },
+  {
+    "id": 31,
+    "title": "Interseccion con grietas en las esquinas y cruces",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/2t-31-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/2t-31-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/2t-31-3.jpeg"
+    ],
+    "description": "Los peatones que utilizan este cruce se ven afectados por los baches y grietas",
+    "date": "16-06-2024",
+    "location": "Segunda Transversal 5698, San Miguel, Región Metropolitana",
+    "tags": [1, 10, 12, 16],
     "state": "active"
   }
 ]
