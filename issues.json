@@ -426,5 +426,190 @@
     "location": "Segunda Transversal 5698, San Miguel, Región Metropolitana",
     "tags": [1, 10, 12, 16],
     "state": "active"
+  },
+  {
+    "id": 32,
+    "title": "Bache en medio de la calle",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/sf-pothole-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/sf-pothole-2.jpeg"
+    ],
+    "description": "La calle además está llena de otros baches, en general la calle esta en muy mal estado, es una calle con mucho tráfico y límite comunal, por lo que tiene una gran importancia pero no es mantenida correctamente",
+    "date": "17-06-2024",
+    "location": "San Francisco 7663, 7980309 La Cisterna, San Ramón, Región Metropolitana",
+    "tags": [1, 10, 12],
+    "state": "active"
+  },
+  {
+    "id": 33,
+    "title": "Esquina llena de piedras",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/stones-esq-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/stones-esq-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/stones-esq-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/stones-esq-4.jpeg"
+    ],
+    "description": "Esquina de calle que conecta al consultorio tiene un hoyo gigante que está lleno de piedras, con las lluvias se llena de agua y basura. Es una calle importante para llegar al centro médico, por lo que debería tener prioridad su estado",
+    "date": "27-06-2024",
+    "location": "Argentina 1763, San Ramón, Región Metropolitana",
+    "tags": [1, 9, 10, 12, 16],
+    "state": "active"
+  },
+  {
+    "id": 34,
+    "title": "Peligroso bache",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/pothole-argtn-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/pothole-argtn-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/pothole-argtn-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/pothole-argtn-4.jpeg"
+    ],
+    "description": "El bache de esta calle es de un tamaño peligroso, es muy profundo y está en la mitad de la calle, en una calle de una sola dirección, por lo que los autos suelen ir más rápido. Además está en la mitad de un cruce de peatones, lo cual complica la accesibilidad",
+    "date": "27-06-2024",
+    "location": "Argentina 1602, 8860390 Santiago, San Ramón, Región Metropolitana",
+    "tags": [1, 9, 10, 12, 16],
+    "state": "active"
+  },
+  {
+    "id": 35,
+    "title": "Parche de poca calidad",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/e-altamirano-patch-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/e-altamirano-patch-1.jpeg"
+    ],
+    "description": "El parche es visualmente terrible, complica al pasar a carros de feria, bicicletas, motos e incluso algunos autos además de que retiene el agua de lluvia",
+    "date": "28-06-2024",
+    "location": "Eulogio Altamirano 7101, 7980133 La Cisterna, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 36,
+    "title": "Arreglo de calle se desfiguró",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/g-freire-patch-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/g-freire-patch-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/g-freire-patch-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/g-freire-patch-4.jpeg"
+    ],
+    "description": "Parche se encuentra deteriorado, lleno de desniveles y desfigurado, además se encuentra justo antes de un lomo de toro, paradero y cruce con signo pare, por lo que en hora punta es una tramo peligroso y difícil de manejar",
+    "date": "28-06-2024",
+    "location": "Gral Freire 175, 7970293 La Cisterna, Región Metropolitana",
+    "tags": [1, 9, 10, 12],
+    "state": "active"
+  },
+  {
+    "id": 37,
+    "title": "Calle llena de hoyos frente a paradero",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-pothole-bus-stop-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-pothole-bus-stop-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-pothole-bus-stop-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-pothole-bus-stop-4.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-pothole-bus-stop-5.jpeg"
+    ],
+    "description": "La calle se encuentra en pésimo estado, tiene rastros de arreglos pasados pero actualmente se encuentra mal, está junto a un paradero frente a un departamento y un colegio, por lo que todas las micros paran ahí y siguen dañando la calle",
+    "date": "28-06-2024",
+    "location": "Av. Fernández Albano 797, La Florida, La Cisterna, Región Metropolitana",
+    "tags": [1, 10, 12],
+    "state": "active"
+  },
+  {
+    "id": 38,
+    "title": "Tapa de alcantarilla mal reemplazada",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-sf-cover-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-sf-cover-2.jpeg"
+    ],
+    "description": "Alcantarilla semi abierta, con tapa en terrible estado y es inseguro cuando un vehículo la pisa",
+    "date": "28-06-2024",
+    "location": "Av. Fernández Albano 7069, La Cisterna, San Ramón, Región Metropolitana",
+    "tags": [5, 9, 10],
+    "state": "active"
+  },
+  {
+    "id": 39,
+    "title": "Barrera golpeada",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/hit-barrier-sf-f-albano-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/hit-barrier-sf-f-albano-2.jpeg"
+    ],
+    "description": "Barrera protectora se encuentra golpeada y requiere reemplazo, tiene un corte en medio y no podría proteger ante un nuevo choque",
+    "date": "03-07-2024",
+    "location": "Av. Fernández Albano 1201, San Ramón, Región Metropolitana",
+    "tags": [6, 9, 17],
+    "state": "active"
+  },
+  {
+    "id": 40,
+    "title": "Alcantarilla rota y con basura",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/cover-alcantara-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/cover-alcantara-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/cover-alcantara-1.jpeg"
+    ],
+    "description": "La tapa de la alcantarilla se rompió y el hoyo que quedó se llena de basura, es un arreglo rápido",
+    "date": "06-07-2024",
+    "location": "Av. Apoquindo 3888, Las Condes, Región Metropolitana",
+    "tags": [5, 6, 14],
+    "state": "active"
+  },
+  {
+    "id": 41,
+    "title": "Calle con baches y bolardo chocado",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/l-condes-bolard-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/l-condes-bolard-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/l-condes-bolard-3.jpeg"
+    ],
+    "description": "El cruce peatonal tiene baches y el bolardo en la rampa del cruce lleva chocado un tiempo. El bolardo es un arreglo rápido al menos",
+    "date": "06-07-2024",
+    "location": "Carmencita 69, Las Condes, Región Metropolitana",
+    "tags": [1, 6, 14, 17],
+    "state": "active"
+  },
+  {
+    "id": 42,
+    "title": "Cruce peatonal roto",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-seb-is-goy-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-seb-is-goy-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-seb-is-goy-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-seb-is-goy-4.jpeg"
+    ],
+    "description": "El cruce está a la altura de la vereda en vez de la calle, por lo que los autos al subir han roto los adoquines, es más, los escombros siguen ahí, apartados junto a un poste, en vez de ser reparados",
+    "date": "06-07-2024",
+    "location": "San Sebastián 2916, 7550102 Las Condes, Región Metropolitana",
+    "tags": [4, 12, 16],
+    "state": "active"
+  },
+  {
+    "id": 43,
+    "title": "Alcantarilla tapada con madera",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/wood-cover-el-parron-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/wood-cover-el-parron-2.jpeg"
+    ],
+    "description": "La alcantarilla no contaba con tapa, por lo que intentaron cubrirla con una plancha de madera, pero no evitó que se llenara de basura y tierra",
+    "date": "11-07-2024",
+    "location": "Av. El Parrón 1635, 8860392 Santiago, San Ramón, Región Metropolitana",
+    "tags": [2, 5, 6],
+    "state": "active"
+  },
+  {
+    "id": 44,
+    "title": "Entrada a policlínico en malas condiciones",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/claveles-potholes-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/claveles-potholes-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/claveles-potholes-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/claveles-potholes-4.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/claveles-potholes-5.jpeg"
+    ],
+    "description": "La calle que conecta con el centro médico, en su entrada principal esta llena de tierra, desniveles, hoyos y piedras, dificultando el acceso a un lugar que debería tener una accesibilidad en mejores condiciones",
+    "date": "27-06-2024",
+    "location": "Los Claveles 8082, 8860466 Santiago, San Ramón, Región Metropolitana",
+    "tags": [1, 12, 16],
+    "state": "active"
   }
 ]
