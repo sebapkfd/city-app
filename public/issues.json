@@ -611,5 +611,51 @@
     "location": "Los Claveles 8082, 8860466 Santiago, San Ramón, Región Metropolitana",
     "tags": [1, 12, 16],
     "state": "active"
+  },
+  {
+    "id": 45,
+    "title": "Calle cercana a clinica con un mal parche",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/st-maria-casanueva-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/st-maria-casanueva-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/st-maria-casanueva-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/st-maria-casanueva-4.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/st-maria-casanueva-5.jpeg"
+    ],
+    "description": "La calle conecta con una una calle con mucho tráfico a alta velocidad, el cruce está lleno de hoyos y los bolardos que protegen la estación de bicicletas estan chocados, además está muy cerca de una clínica, por lo que debería estar en buen estado",
+    "date": "13-07-2024",
+    "location": "Av. Sta. Maria 409, Providencia, Región Metropolitana",
+    "tags": [1, 12, 17],
+    "state": "active"
+  },
+  {
+    "id": 46,
+    "title": "Vereda de puente con adoquines rotos",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-letelier-bridge-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-letelier-bridge-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-letelier-bridge-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-letelier-bridge-4.jpeg"
+    ],
+    "description": "La vereda de Puente Padre Letelier tiene adoquines rotos, sueltos y otros que faltan, dificultando la pasada. Este puente conecta con un parque, por lo que es muy usado por gente con coches y niños, debería estar en mejor estado",
+    "date": "13-07-2024",
+    "location": "Padre Letelier, Providencia, Región Metropolitana",
+    "tags": [4, 12, 14, 16],
+    "state": "active"
+  },
+  {
+    "id": 47,
+    "title": "Puente con hoyos",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/bridge-letelier-potholes-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/bridge-letelier-potholes-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/bridge-letelier-potholes-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/bridge-letelier-potholes-4.jpeg"
+    ],
+    "description": "El Puente Padre Letelier tiene hoyos sin reparar, algunos más leves que otros pero en general necesita una mantención",
+    "date": "13-07-2024",
+    "location": "Padre Letelier, Providencia, Región Metropolitana",
+    "tags": [1, 12, 14],
+    "state": "active"
   }
 ]
