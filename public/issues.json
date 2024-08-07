@@ -88,9 +88,11 @@
     "id": 7,
     "title": "Cables rotos",
     "pictures": [
-      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-cables-el-parron.jpeg"
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-cables-el-parron-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-cables-el-parron-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-cables-el-parron-3.jpeg"
     ],
-    "description": "Cables rotos y acumulación de basura",
+    "description": "Cables rotos y acumulación de basura, ha medida que pasa el tiempo la cantidad de basura aumenta",
     "date": "13-06-2024",
     "location": "Av. El Parrón 839, 7980347 La Cisterna, Región Metropolitana",
     "tags": [2, 10, 14],
@@ -655,6 +657,78 @@
     "description": "El Puente Padre Letelier tiene hoyos sin reparar, algunos más leves que otros pero en general necesita una mantención",
     "date": "13-07-2024",
     "location": "Padre Letelier, Providencia, Región Metropolitana",
+    "tags": [1, 12, 14],
+    "state": "active"
+  },
+  {
+    "id": 48,
+    "title": "Enorme bache",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/esmeralda-ground-4.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/esmeralda-ground-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/esmeralda-ground-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/esmeralda-ground-1.jpeg"
+    ],
+    "description": "Calle en pésimas condiciones, el bache acapara un vía por completo y dificulta pasar incluso en vehículos grandes",
+    "date": "31-07-2024",
+    "location": "Esmeralda 7253, 7980221 Santiago, La Cisterna, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 49,
+    "title": "Rampa rota en pasaje",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/blind-tides.broken-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/blind-tides.broken-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/blind-tides.broken-3.jpeg"
+    ],
+    "description": "Desnivel en vereda de pasaje, por lo que es un arreglo menor. La principal aparte afectada es la baldosa con señaléticas para ciegos",
+    "date": "31-07-2024",
+    "location": "Angamos 7679, 7980241 La Cisterna, Región Metropolitana",
+    "tags": [4, 14, 16],
+    "state": "active"
+  },
+  {
+    "id": 50,
+    "title": "Bache en esquina",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/corner-block-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/corner-block-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/corner-block-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/corner-block-4.jpeg"
+    ],
+    "description": "La entrada del pasaje tiene un bache en la esquina, con poca visibilidad, además el lomo de toro junto al bache generan un montón de desniveles",
+    "date": "31-07-2024",
+    "location": "Angamos 7500, La Cisterna, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 51,
+    "title": "Escaleras rotas",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-stairs-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-stairs-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/broken-stairs-3.jpeg"
+    ],
+    "description": "Escaleras en plaza rotas, no tienen los peldaños para apoyar y en general la plaza requiere un poco de mantenimiento",
+    "date": "31-07-2024",
+    "location": "Av. Las Condes 10297, Las Condes, Región Metropolitana",
+    "tags": [6, 10, 16],
+    "state": "active"
+  },
+  {
+    "id": 52,
+    "title": "Grietas en calle residencial",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/glamis-pothole-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/glamis-pothole-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/glamis-pothole-3.jpeg"
+    ],
+    "description": "Grietas a lo largo de toda la calle, especialmente en el sector marcado",
+    "date": "21-07-2024",
+    "location": "Glamis 3140, 7550067 Las Condes, Región Metropolitana",
     "tags": [1, 12, 14],
     "state": "active"
   }
