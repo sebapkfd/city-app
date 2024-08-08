@@ -731,5 +731,62 @@
     "location": "Glamis 3140, 7550067 Las Condes, Región Metropolitana",
     "tags": [1, 12, 14],
     "state": "active"
+  },
+  {
+    "id": 53,
+    "title": "Grietas en alcantarilla",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/3t-91-cracks-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/3t-91-cracks-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/3t-91-cracks-3.jpeg"
+    ],
+    "description": "La intersección tiene una alcantarilla en el centro que está rodeada de grietas que han estado empeorando por años ",
+    "date": "28-07-2024",
+    "location": "Tercera Transversal 6201, San Miguel, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 54,
+    "title": "Bache con peldaño",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/step-pot-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/step-pot-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/step-pot-1.jpeg"
+    ],
+    "description": "El bache en esta intersección tiene un peldaño que sobresale, al pasar por el de mala forma, los vehículos de neumáticos pequeños chocan de frente con este peldaño",
+    "date": "28-07-2024",
+    "location": "Primera Transversal 5736, San Miguel, Región Metropolitana",
+    "tags": [1, 9, 12],
+    "state": "active"
+  },
+  {
+    "id": 55,
+    "title": "Bache en entrada de auto",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/1a-pothole-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/1a-pothole-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/1a-pothole-3.jpeg"
+    ],
+    "description": "El bache dificulta transitar debido a que una de los pistas se suele utilizar de estacionamiento",
+    "date": "28-07-2024",
+    "location": "Primera Avenida 1226, 8920267 San Miguel, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 56,
+    "title": "Grietas en la calle",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/1a-cracks-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/1a-cracks-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/1a-cracks-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/1a-cracks-4.jpeg"
+    ],
+    "description": "Los tramos de la calle están desnivelados y rotos, hay trozos que sobresalen y con el pasar de los autos se pone peor",
+    "date": "28-07-2024",
+    "location": "Primera Avenida 1308, 8920243 Santiago, San Miguel, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
   }
 ]
