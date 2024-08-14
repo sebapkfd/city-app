@@ -788,5 +788,129 @@
     "location": "Primera Avenida 1308, 8920243 Santiago, San Miguel, Región Metropolitana",
     "tags": [1, 12],
     "state": "active"
+  },
+  {
+    "id": 57,
+    "title": "Parche junto a bache",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/pothole-and-patch-1-st-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/pothole-and-patch-1-st-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/pothole-and-patch-1-st-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/pothole-and-patch-1-st-4.jpeg"
+    ],
+    "description": "En una calle que de por sí ya tiene muchos baches, se encuentran estos dos obstáculos seguidos separados por un par de metros, justo antes de la intercepción con una calle importante",
+    "date": "28-07-2024",
+    "location": "Primera Avenida 1385, 8920212 San Miguel, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 58,
+    "title": "Esquinas en intersección con hoyos",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-albina-t-matta-4.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-albina-t-matta-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-albina-t-matta-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-albina-t-matta-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/s-albina-t-matta-5.jpeg"
+    ],
+    "description": "Las esquinas de la intercepción están hundidas, justo en las curvas más usadas debido al sentido de las calles. Esta intersección es el peor lugar, pero ambas calles en toda su extensión están en malas condiciones",
+    "date": "28-07-2024",
+    "location": "Sta. Albina 5352, San Miguel, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 59,
+    "title": "Trozo de calle con piedras",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/barros-luco-no-paved-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/barros-luco-no-paved-1.jpeg"
+    ],
+    "description": "Trozo de calle está sin pavimentar, esta con tierra y piedras, es posible que este en proceso de reparación, pero lleva un par de semanas así",
+    "date": "28-07-2024",
+    "location": "Ramón Barros Luco 4411, 8910279 San Miguel, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 60,
+    "title": "Piedra en cruce",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/pio-nono-a-bello-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/pio-nono-a-bello-1.jpeg"
+    ],
+    "description": "Hay una piedra en el cruce camino al puente, aquí antes había un bolardo que probablemente fue chocado y dejó los escombros, lo peor de todo es que el obstáculo está en un espacio con señalética para no videntes, por lo que es un obstáculo en un lugar que debería ser más accesible.",
+    "date": "28-07-2024",
+    "location": "Av. Andrés Bello 2, Las Condes, Región Metropolitana",
+    "tags": [4, 6, 9, 14, 16, 17],
+    "state": "active"
+  },
+  {
+    "id": 61,
+    "title": "Par de baches",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-pair-potholes-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-pair-potholes-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-pair-potholes-1.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-pair-potholes-4.jpeg"
+    ],
+    "description": "La calle es de doble pista y conecta dos grandes calles, por lo que los autos pasan rápido sobre estos baches y empeoran su estado aún más",
+    "date": "31-07-2024",
+    "location": "Av. Fernández Albano 973, 7980264 La Cisterna, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 62,
+    "title": "Barrera incompleta",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-no-barrier-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/f-albano-no-barrier-1.jpeg"
+    ],
+    "description": "Falta un trozo de la barrera protectora, esta en un bandejón en una parte oscura, por lo que es peligroso, además la reja de por si tiene harto óxido y requiere una mantención",
+    "date": "31-07-2024",
+    "location": "Av. Fernández Albano 7213, La Cisterna, Región Metropolitana",
+    "tags": [6, 9, 17],
+    "state": "active"
+  },
+  {
+    "id": 63,
+    "title": "Baches que han empeorado",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/el-tranque-1.jpeg"
+    ],
+    "description": "Los baches en general no son tan notorios, pero han empeorado rápidamente",
+    "date": "01-08-2024",
+    "location": "Av. El Tranque 12324, 7690306 Lo Barnechea, Región Metropolitana",
+    "tags": [1, 12],
+    "state": "active"
+  },
+  {
+    "id": 64,
+    "title": "Baches en autopista",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/la-dehesa-balaguer-1.jpeg"
+    ],
+    "description": "Bache que ha ido empeorando, esta en una autopista en camino hacia la dehesa",
+    "date": "08-08-2024",
+    "location": "Av. San Josemaría Escrivá de Balaguer 12967, Lo Barnechea, Región Metropolitana",
+    "tags": [1, 9, 12],
+    "state": "active"
+  },
+  {
+    "id": 65,
+    "title": "Bache junto a alcantarilla",
+    "pictures": [
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/2-ot-pothole-drain-4.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/2-ot-pothole-drain-2.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/2-ot-pothole-drain-3.jpeg",
+      "https://city-pics.s3.us-east-2.amazonaws.com/pictures/2-ot-pothole-drain-1.jpeg"
+    ],
+    "description": "La presencia del bache ayuda a juntar suciedad que después taba la alcantarilla, también ambos elementos tan cerca dificultan el paso de vehículos ligeros en esa curva",
+    "date": "07-08-2024",
+    "location": "Dos Ote 8421, 7980554 La Cisterna, Región Metropolitana",
+    "tags": [1, 2, 5, 14],
+    "state": "active"
   }
 ]
