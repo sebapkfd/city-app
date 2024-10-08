@@ -46,5 +46,11 @@
     "title": "More posts!",
     "content": "Now we have more than 60 posts and over 200 images",
     "date": "14-08-2024"
+  },
+  {
+    "id": 9,
+    "title": "New work",
+    "content": "It has been a while, but we are back working. New bike lane category has been created, added 2 more states: 'Developing' and 'Patch', and updated some posts. On the next days, new posts will be uploaded",
+    "date": "08-10-2024"
   }
 ]
