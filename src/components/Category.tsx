@@ -10,31 +10,12 @@ const Category = () => {
   let { id } = useParams();
 
   const getData = async () => {
-    const tagsResponse = await fetch("../tags.json", {
-      headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-      },
-    }
-    );
-    const tagsData = await tagsResponse.json();
-    let tag: Tag = tagsData.filter((tag: Tag) => id && tag.id === parseInt(id))[0];
-
-    const IssuesResponse = await fetch("../issues.json", {
-      headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-      },
-    }
-    );
-    const IssuesData = await IssuesResponse.json();
-    let filteredIssues: Issue[] = IssuesData.filter(
-      (issue: Issue) => id && issue.tags.includes(tag.id)
-    );
-
-    setIssues(filteredIssues);
-    setCategory(tag);
-
+    const response = await fetch(`http://localhost:8080/city/tags/${id}/issues`, {
+      headers: { "Content-Type": "application/json" },
+    });
+    const data = await response.json();
+    setIssues(data.issues);
+    setCategory(data.tag);
   };
 
   useEffect(() => {
