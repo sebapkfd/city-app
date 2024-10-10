@@ -6,13 +6,9 @@ const Releases = () => {
   const [releases, setReleases] = useState<Release[]>([]);
 
   const getData = async () => {
-    const response = await fetch("./releases.json", {
-      headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-      },
-    }
-    );
+    const response = await fetch("http://localhost:8080/city/releases", {
+      headers: { "Content-Type": "application/json" },
+    });
     const data = await response.json();
     setReleases(data);
   };
@@ -26,7 +22,7 @@ const Releases = () => {
       <h1>Anuncios</h1>
       <div className="releases-list">
         {releases?.map((release, index) => (
-          <ReleaseItem release={release} key={`release-${index}`}/>
+          <ReleaseItem release={release} key={`release-${index}`} />
         ))}
       </div>
     </div>
