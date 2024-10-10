@@ -25,20 +25,11 @@ const IssuePage = () => {
   let { id } = useParams();
 
   const getData = async () => {
-    const response = await fetch("./issues.json", {
-      headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-      },
-    }
-    );
+    const response = await fetch("http://localhost:8080/city/issues/" + id, {
+      headers: { "Content-Type": "application/json" },
+    });
     const data = await response.json();
-
-    let value: Issue[] = data.filter(
-      (issue: Issue) => id && issue.id === parseInt(id)
-    );
-
-    setData(value[0]);
+    setData(data);
   };
 
   useEffect(() => {
