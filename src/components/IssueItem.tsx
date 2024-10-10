@@ -1,6 +1,6 @@
-import { Issue } from "../shared/types";
+import { IssueInfo } from "../shared/types";
 
-const IssueItem = ({ issue }: { issue: Issue }) => {
+const IssueItem = ({ issue }: { issue: IssueInfo }) => {
   return (
     <div className="issue-item">
       <div className="issue-item-picture">

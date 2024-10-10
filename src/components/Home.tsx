@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import IssueItem from "./IssueItem";
-import { Issue } from "../shared/types";
+import { IssueInfo } from "../shared/types";
 
 const Home = () => {
-  const [issues, setIssues] = useState<Issue[]>();
+  const [issues, setIssues] = useState<IssueInfo[]>();
 
   const getData = async () => {
     const response = await fetch("http://localhost:8080/city/issues", {

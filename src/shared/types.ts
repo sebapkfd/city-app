@@ -9,10 +9,17 @@ export type Issue = {
   pictures: string[];
   description: string;
   date: string;
-  tags: number[];
+  tags: Tag[];
   location: string;
   state: string;
 };
+
+export type IssueInfo = {
+  id: number;
+  title: string;
+  pictures: string[];
+  date: string;
+}
 
 export type Release = {
   id: number;
